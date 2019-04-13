@@ -1,0 +1,3234 @@
+<!DOCTYPE html>
+<html lang="ru_RU" class="ovh">
+
+<head>
+	<!-- Metadata -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Styles/Icons/etc. -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#fff">
+	<meta name="theme-color" content="#ffffff">
+
+	<style>@-webkit-keyframes preload-show-1{from{-webkit-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-show-1{from{-moz-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-show-1{from{transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-show-1{from{-webkit-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-hide-1{to{-webkit-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-hide-1{to{-moz-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-hide-1{to{transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-hide-1{to{-webkit-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);transform:rotateZ(60deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-cycle-1{5%{-webkit-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}10%,75%{-webkit-transform:rotateZ(60deg) rotateY(0) rotateX(0);transform:rotateZ(60deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,80%{-webkit-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-cycle-1{5%{-moz-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}10%,75%{-moz-transform:rotateZ(60deg) rotateY(0) rotateX(0);transform:rotateZ(60deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,80%{-moz-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-cycle-1{5%{transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}10%,75%{transform:rotateZ(60deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,80%{transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-cycle-1{5%{-webkit-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}10%,75%{-webkit-transform:rotateZ(60deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(60deg) rotateY(0) rotateX(0);transform:rotateZ(60deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,80%{-webkit-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);transform:rotateZ(60deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-show-2{from{-webkit-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-show-2{from{-moz-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-show-2{from{transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-show-2{from{-webkit-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-hide-2{to{-webkit-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-hide-2{to{-moz-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-hide-2{to{transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-hide-2{to{-webkit-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);transform:rotateZ(120deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-cycle-2{10%{-webkit-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}15%,70%{-webkit-transform:rotateZ(120deg) rotateY(0) rotateX(0);transform:rotateZ(120deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,75%{-webkit-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-cycle-2{10%{-moz-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}15%,70%{-moz-transform:rotateZ(120deg) rotateY(0) rotateX(0);transform:rotateZ(120deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,75%{-moz-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-cycle-2{10%{transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}15%,70%{transform:rotateZ(120deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,75%{transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-cycle-2{10%{-webkit-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}15%,70%{-webkit-transform:rotateZ(120deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(120deg) rotateY(0) rotateX(0);transform:rotateZ(120deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,75%{-webkit-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);transform:rotateZ(120deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-show-3{from{-webkit-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-show-3{from{-moz-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-show-3{from{transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-show-3{from{-webkit-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-hide-3{to{-webkit-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-hide-3{to{-moz-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-hide-3{to{transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-hide-3{to{-webkit-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);transform:rotateZ(180deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-cycle-3{15%{-webkit-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}20%,65%{-webkit-transform:rotateZ(180deg) rotateY(0) rotateX(0);transform:rotateZ(180deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,70%{-webkit-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-cycle-3{15%{-moz-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}20%,65%{-moz-transform:rotateZ(180deg) rotateY(0) rotateX(0);transform:rotateZ(180deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,70%{-moz-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-cycle-3{15%{transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}20%,65%{transform:rotateZ(180deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,70%{transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-cycle-3{15%{-webkit-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}20%,65%{-webkit-transform:rotateZ(180deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(180deg) rotateY(0) rotateX(0);transform:rotateZ(180deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,70%{-webkit-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);transform:rotateZ(180deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-show-4{from{-webkit-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-show-4{from{-moz-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-show-4{from{transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-show-4{from{-webkit-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-hide-4{to{-webkit-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-hide-4{to{-moz-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-hide-4{to{transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-hide-4{to{-webkit-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);transform:rotateZ(240deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-cycle-4{20%{-webkit-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}25%,60%{-webkit-transform:rotateZ(240deg) rotateY(0) rotateX(0);transform:rotateZ(240deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,65%{-webkit-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-cycle-4{20%{-moz-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}25%,60%{-moz-transform:rotateZ(240deg) rotateY(0) rotateX(0);transform:rotateZ(240deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,65%{-moz-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-cycle-4{20%{transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}25%,60%{transform:rotateZ(240deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,65%{transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-cycle-4{20%{-webkit-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}25%,60%{-webkit-transform:rotateZ(240deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(240deg) rotateY(0) rotateX(0);transform:rotateZ(240deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,65%{-webkit-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);transform:rotateZ(240deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-show-5{from{-webkit-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-show-5{from{-moz-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-show-5{from{transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-show-5{from{-webkit-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-hide-5{to{-webkit-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-hide-5{to{-moz-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-hide-5{to{transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-hide-5{to{-webkit-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);transform:rotateZ(300deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-cycle-5{25%{-webkit-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}30%,55%{-webkit-transform:rotateZ(300deg) rotateY(0) rotateX(0);transform:rotateZ(300deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,60%{-webkit-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-cycle-5{25%{-moz-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}30%,55%{-moz-transform:rotateZ(300deg) rotateY(0) rotateX(0);transform:rotateZ(300deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,60%{-moz-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-cycle-5{25%{transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}30%,55%{transform:rotateZ(300deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,60%{transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-cycle-5{25%{-webkit-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}30%,55%{-webkit-transform:rotateZ(300deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(300deg) rotateY(0) rotateX(0);transform:rotateZ(300deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,60%{-webkit-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);transform:rotateZ(300deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-show-6{from{-webkit-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-show-6{from{-moz-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-show-6{from{transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-show-6{from{-webkit-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-hide-6{to{-webkit-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-hide-6{to{-moz-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-hide-6{to{transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-hide-6{to{-webkit-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);-moz-transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);transform:rotateZ(360deg) rotateY(-90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-cycle-6{30%{-webkit-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}35%,50%{-webkit-transform:rotateZ(360deg) rotateY(0) rotateX(0);transform:rotateZ(360deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,55%{-webkit-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-moz-keyframes preload-cycle-6{30%{-moz-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}35%,50%{-moz-transform:rotateZ(360deg) rotateY(0) rotateX(0);transform:rotateZ(360deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,55%{-moz-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-o-keyframes preload-cycle-6{30%{transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}35%,50%{transform:rotateZ(360deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,55%{transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@keyframes preload-cycle-6{30%{-webkit-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}35%,50%{-webkit-transform:rotateZ(360deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(360deg) rotateY(0) rotateX(0);transform:rotateZ(360deg) rotateY(0) rotateX(0);border-left-color:#f7484e}100%,55%{-webkit-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);transform:rotateZ(360deg) rotateY(90deg) rotateX(0);border-left-color:#9c2f2f}}@-webkit-keyframes preload-flip{0%{-webkit-transform:rotateY(0) rotateZ(-60deg);transform:rotateY(0) rotateZ(-60deg)}100%{-webkit-transform:rotateY(360deg) rotateZ(-60deg);transform:rotateY(360deg) rotateZ(-60deg)}}@-moz-keyframes preload-flip{0%{-moz-transform:rotateY(0) rotateZ(-60deg);transform:rotateY(0) rotateZ(-60deg)}100%{-moz-transform:rotateY(360deg) rotateZ(-60deg);transform:rotateY(360deg) rotateZ(-60deg)}}@-o-keyframes preload-flip{0%{transform:rotateY(0) rotateZ(-60deg)}100%{transform:rotateY(360deg) rotateZ(-60deg)}}@keyframes preload-flip{0%{-webkit-transform:rotateY(0) rotateZ(-60deg);-moz-transform:rotateY(0) rotateZ(-60deg);transform:rotateY(0) rotateZ(-60deg)}100%{-webkit-transform:rotateY(360deg) rotateZ(-60deg);-moz-transform:rotateY(360deg) rotateZ(-60deg);transform:rotateY(360deg) rotateZ(-60deg)}}.preloader-wrap{background-color:#efefef;position:fixed;overflow:hidden;width:100%;height:100%;z-index:9999;bottom:0;right:0;left:0;top:0}.preloader{position:absolute;top:50%;left:50%;font-size:20px;display:block;width:3.75em;height:4.25em;margin-left:-1.875em;margin-top:-2.125em;-webkit-transform-origin:center center;-moz-transform-origin:center center;-ms-transform-origin:center center;-o-transform-origin:center center;transform-origin:center center;-webkit-transform:rotateY(180deg) rotateZ(-60deg);-moz-transform:rotateY(180deg) rotateZ(-60deg);transform:rotateY(180deg) rotateZ(-60deg)}.preloader .slice{border-top:1.125em solid transparent;border-right:none;border-bottom:1em solid transparent;border-left:1.875em solid #f7484e;position:absolute;top:0;left:50%;-webkit-transform-origin:left bottom;-moz-transform-origin:left bottom;-ms-transform-origin:left bottom;-o-transform-origin:left bottom;transform-origin:left bottom;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0}.preloader .slice:nth-child(1){-webkit-transform:rotateZ(60deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(60deg) rotateY(0) rotateX(0);transform:rotateZ(60deg) rotateY(0) rotateX(0);-webkit-animation:.15s linear .82s preload-hide-1 both 1;-moz-animation:.15s linear .82s preload-hide-1 both 1;-o-animation:.15s linear .82s preload-hide-1 both 1;animation:.15s linear .82s preload-hide-1 both 1}.preloader .slice:nth-child(2){-webkit-transform:rotateZ(120deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(120deg) rotateY(0) rotateX(0);transform:rotateZ(120deg) rotateY(0) rotateX(0);-webkit-animation:.15s linear .74s preload-hide-2 both 1;-moz-animation:.15s linear .74s preload-hide-2 both 1;-o-animation:.15s linear .74s preload-hide-2 both 1;animation:.15s linear .74s preload-hide-2 both 1}.preloader .slice:nth-child(3){-webkit-transform:rotateZ(180deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(180deg) rotateY(0) rotateX(0);transform:rotateZ(180deg) rotateY(0) rotateX(0);-webkit-animation:.15s linear .66s preload-hide-3 both 1;-moz-animation:.15s linear .66s preload-hide-3 both 1;-o-animation:.15s linear .66s preload-hide-3 both 1;animation:.15s linear .66s preload-hide-3 both 1}.preloader .slice:nth-child(4){-webkit-transform:rotateZ(240deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(240deg) rotateY(0) rotateX(0);transform:rotateZ(240deg) rotateY(0) rotateX(0);-webkit-animation:.15s linear .58s preload-hide-4 both 1;-moz-animation:.15s linear .58s preload-hide-4 both 1;-o-animation:.15s linear .58s preload-hide-4 both 1;animation:.15s linear .58s preload-hide-4 both 1}.preloader .slice:nth-child(5){-webkit-transform:rotateZ(300deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(300deg) rotateY(0) rotateX(0);transform:rotateZ(300deg) rotateY(0) rotateX(0);-webkit-animation:.15s linear .5s preload-hide-5 both 1;-moz-animation:.15s linear .5s preload-hide-5 both 1;-o-animation:.15s linear .5s preload-hide-5 both 1;animation:.15s linear .5s preload-hide-5 both 1}.preloader .slice:nth-child(6){-webkit-transform:rotateZ(360deg) rotateY(0) rotateX(0);-moz-transform:rotateZ(360deg) rotateY(0) rotateX(0);transform:rotateZ(360deg) rotateY(0) rotateX(0);-webkit-animation:.15s linear .42s preload-hide-6 both 1;-moz-animation:.15s linear .42s preload-hide-6 both 1;-o-animation:.15s linear .42s preload-hide-6 both 1;animation:.15s linear .42s preload-hide-6 both 1}.preloader.loading{-webkit-animation:2s preload-flip steps(2) infinite both;-moz-animation:2s preload-flip steps(2) infinite both;-o-animation:2s preload-flip steps(2) infinite both;animation:2s preload-flip steps(2) infinite both}.preloader.loading .slice:nth-child(1){-webkit-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(60deg) rotateY(90deg) rotateX(0);transform:rotateZ(60deg) rotateY(90deg) rotateX(0);-webkit-animation:2s preload-cycle-1 linear infinite both;-moz-animation:2s preload-cycle-1 linear infinite both;-o-animation:2s preload-cycle-1 linear infinite both;animation:2s preload-cycle-1 linear infinite both}.preloader.loading .slice:nth-child(2){-webkit-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(120deg) rotateY(90deg) rotateX(0);transform:rotateZ(120deg) rotateY(90deg) rotateX(0);-webkit-animation:2s preload-cycle-2 linear infinite both;-moz-animation:2s preload-cycle-2 linear infinite both;-o-animation:2s preload-cycle-2 linear infinite both;animation:2s preload-cycle-2 linear infinite both}.preloader.loading .slice:nth-child(3){-webkit-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(180deg) rotateY(90deg) rotateX(0);transform:rotateZ(180deg) rotateY(90deg) rotateX(0);-webkit-animation:2s preload-cycle-3 linear infinite both;-moz-animation:2s preload-cycle-3 linear infinite both;-o-animation:2s preload-cycle-3 linear infinite both;animation:2s preload-cycle-3 linear infinite both}.preloader.loading .slice:nth-child(4){-webkit-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(240deg) rotateY(90deg) rotateX(0);transform:rotateZ(240deg) rotateY(90deg) rotateX(0);-webkit-animation:2s preload-cycle-4 linear infinite both;-moz-animation:2s preload-cycle-4 linear infinite both;-o-animation:2s preload-cycle-4 linear infinite both;animation:2s preload-cycle-4 linear infinite both}.preloader.loading .slice:nth-child(5){-webkit-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(300deg) rotateY(90deg) rotateX(0);transform:rotateZ(300deg) rotateY(90deg) rotateX(0);-webkit-animation:2s preload-cycle-5 linear infinite both;-moz-animation:2s preload-cycle-5 linear infinite both;-o-animation:2s preload-cycle-5 linear infinite both;animation:2s preload-cycle-5 linear infinite both}.preloader.loading .slice:nth-child(6){-webkit-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);-moz-transform:rotateZ(360deg) rotateY(90deg) rotateX(0);transform:rotateZ(360deg) rotateY(90deg) rotateX(0);-webkit-animation:2s preload-cycle-6 linear infinite both;-moz-animation:2s preload-cycle-6 linear infinite both;-o-animation:2s preload-cycle-6 linear infinite both;animation:2s preload-cycle-6 linear infinite both}.ovh{overflow:hidden;height:100%;}</style>
+
+	<link rel="stylesheet" href="libs/normalize/normalize.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/grid/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<!-- Title tag -->
+	<title>Taraz-handmade — твой кошелёк, наполненный армянским духом</title>
+</head>
+
+<body class="ovh">
+
+	<div class="preloader-wrap">
+		<div class="preloader loading">
+			<span class="slice"></span>
+			<span class="slice"></span>
+			<span class="slice"></span>
+			<span class="slice"></span>
+			<span class="slice"></span>
+			<span class="slice"></span>
+		</div>
+	</div>
+
+	<div class="d-none">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<symbol id="header-basket" viewbox="0 0 33 33">
+				<g>
+					<g>
+						<path d="M27.049,30.134H5.951c-0.99,0-1.81-0.743-1.908-1.728L2.659,14.537c-0.014-0.141,0.032-0.281,0.127-0.385
+			c0.095-0.105,0.229-0.165,0.371-0.165h26.688c0.141,0,0.276,0.06,0.371,0.165c0.095,0.104,0.141,0.245,0.127,0.385l-1.383,13.869
+			C28.86,29.391,28.039,30.134,27.049,30.134z M3.708,14.988l1.329,13.319c0.047,0.472,0.439,0.827,0.913,0.827h21.099
+			c0.474,0,0.867-0.355,0.914-0.827l1.329-13.319H3.708z"></path>
+						<g>
+							<g>
+								<path d="M7.604,9.106c-0.143,0-0.285-0.061-0.383-0.179C7.042,8.716,7.07,8.4,7.282,8.223l6.246-5.24
+					c0.213-0.177,0.528-0.15,0.704,0.062c0.178,0.211,0.15,0.527-0.062,0.704l-6.246,5.24C7.831,9.067,7.717,9.106,7.604,9.106z">
+								</path>
+							</g>
+							<g>
+								<path d="M25.397,9.106c-0.113,0-0.227-0.039-0.321-0.117l-6.247-5.24c-0.211-0.178-0.239-0.493-0.062-0.705
+					c0.179-0.211,0.493-0.239,0.705-0.062l6.247,5.24c0.211,0.178,0.239,0.493,0.062,0.705C25.682,9.045,25.54,9.106,25.397,9.106z">
+								</path>
+							</g>
+						</g>
+						<path d="M31.275,14.988H1.725C0.774,14.988,0,14.214,0,13.263v-3.198c0-0.951,0.774-1.725,1.725-1.725h29.55
+			c0.951,0,1.725,0.774,1.725,1.725v3.198C33,14.214,32.227,14.988,31.275,14.988z M1.725,9.339C1.325,9.339,1,9.664,1,10.064v3.198
+			c0,0.4,0.325,0.725,0.725,0.725h29.55c0.399,0,0.725-0.325,0.725-0.725v-3.198c0-0.4-0.325-0.725-0.725-0.725H1.725z">
+						</path>
+					</g>
+					<g>
+						<path d="M9.255,26.048c-0.276,0-0.5-0.224-0.5-0.5v-7.25c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v7.25
+			C9.755,25.825,9.532,26.048,9.255,26.048z"></path>
+						<path d="M14.085,26.048c-0.276,0-0.5-0.224-0.5-0.5v-7.25c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v7.25
+			C14.585,25.825,14.362,26.048,14.085,26.048z"></path>
+						<path d="M18.915,26.048c-0.276,0-0.5-0.224-0.5-0.5v-7.25c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v7.25
+			C19.415,25.825,19.191,26.048,18.915,26.048z"></path>
+						<path d="M23.745,26.048c-0.276,0-0.5-0.224-0.5-0.5v-7.25c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v7.25
+			C24.245,25.825,24.021,26.048,23.745,26.048z"></path>
+					</g>
+				</g>
+			</symbol>
+			<symbol id="header-heart" viewbox="0 0 135.46497 115.30987">
+				<g transform="translate(-30.541323,-66.2562)">
+					<path d="M 92.522277,178.2268 C 69.960466,162.99153 49.859718,145.00783 40.065958,131.29525 c -6.21353,-8.69978 -9.52141,-16.89116 -9.52463,-23.58603 -0.006,-12.098543 5.37304,-24.015823 14.28665,-31.653198 9.94519,-8.521249 22.574541,-11.646521 35.321875,-8.740785 5.545163,1.264011 11.10644,4.058057 16.036744,8.057031 0.962083,0.780348 1.916628,1.418814 2.121209,1.418814 0.204584,0 0.965235,-0.518795 1.690341,-1.152878 4.801993,-4.199206 11.933713,-7.562915 18.721723,-8.83018 3.02854,-0.565405 10.5021,-0.619273 13.4206,-0.09673 19.53999,3.498507 33.87461,20.77971 33.86582,40.827176 -0.007,15.15073 -15.15183,34.88542 -44.44915,57.91872 -9.57566,7.5283 -21.977789,16.10888 -23.28333,16.10888 -0.595029,0 -2.102712,-0.87534 -5.751533,-3.33927 z m 8.817023,-4.55029 c 10.44635,-7.18503 22.36289,-16.41702 29.74284,-23.04238 6.84414,-6.14433 15.38336,-15.02848 19.35098,-20.13263 4.08491,-5.25502 7.53016,-11.32274 8.95543,-15.77214 2.37964,-7.42874 1.28631,-16.173973 -3.04823,-24.382063 -7.65862,-14.502685 -23.77531,-21.713705 -39.43606,-17.644699 -5.30553,1.378493 -10.01492,3.965526 -14.32709,7.870374 -3.122842,2.827864 -3.939143,3.260416 -5.163256,2.73598 C 96.940972,83.106331 95.39749,81.884343 93.983957,80.593421 83.700722,71.202172 69.297108,68.946972 56.469648,74.719736 c -7.9263,3.567083 -15.32718,11.730873 -18.383,20.277981 -1.74577,4.8829 -2.59669,11.116113 -2.04161,14.955253 1.38914,9.60779 8.42453,20.30402 22.312399,33.92262 5.205767,5.10483 8.033077,7.66434 13.458041,12.18335 8.213441,6.84182 25.353858,19.41102 26.481115,19.41881 0.230815,0.002 1.600034,-0.80896 3.042707,-1.80124 z m 46.13616,-65.06928 c -0.74861,-0.67003 -0.83067,-0.91604 -1.03688,-3.10885 -0.8094,-8.607053 -5.46056,-15.195853 -12.96999,-18.373174 -1.08854,-0.460576 -2.18754,-1.025985 -2.44222,-1.256466 -0.69243,-0.626647 -0.85948,-1.98981 -0.36178,-2.952255 0.84893,-1.641656 2.31027,-1.774866 5.35754,-0.488374 9.23188,3.897496 15.69751,13.526836 15.69751,23.378479 0,1.83724 -0.0563,2.03773 -0.7734,2.75485 -1.03786,1.03785 -2.34311,1.05507 -3.47078,0.0458 z M 121.00762,85.2781 c -1.05375,-1.053745 -1.05621,-2.341316 -0.007,-3.515893 0.63446,-0.71008 0.95853,-0.858057 1.87916,-0.858057 2.64435,0 3.60567,3.570014 1.28455,4.770317 -1.18624,0.613428 -2.28516,0.475456 -3.15698,-0.396367 z">
+					</path>
+				</g>
+			</symbol>
+			<symbol id="header-home" viewbox="0 0 512 512">
+				<path d="M507 208L264 30c-5-3-11-3-16 0L5 208a13 13 0 1 0 16 22L256 58l235 172a13 13 0 0 0 18-3c5-6 3-15-2-19z">
+				</path>
+				<path d="M442 233c-7 0-13 5-13 13v212H323V342a67 67 0 0 0-134 0v116H83V246a13 13 0 0 0-27 0v225c0 7 6 13 14 13h133a13 13 0 0 0 13-13V342a40 40 0 0 1 80 0v130c0 7 6 12 13 12h133c8 0 14-6 14-13V246c0-8-6-13-14-13z">
+				</path>
+			</symbol>
+			<symbol id="header-logo" viewbox="0 0 702 178.8">
+				<path d="M32.6 176.5c-.3-1.2-.5-2.8-.4-3.4 0-1.1.3-1.4 2-2.2 1.7-.9 2.6-1 7.1-1.3 5.7-.4 8.2-.9 8.9-1.8.7-.9 2.3-5 2.7-7a41 41 0 0 0 0-10.4c-.6-1 0-2.6 1.3-4.3l1.2-1.6-1.4-2.2c-.8-1.2-1.4-2.4-1.3-2.7.2-.3.4-2 .6-3.8.1-1.8.4-3.6.7-4 .3-.5.3-1.3 0-2.9-.4-1.7-.4-3 0-5.9.3-2.7.3-4.2 0-5.4-.2-1-.4-3.4-.3-5.5 0-2-.2-6.2-.6-9-.4-4-.4-5.7-.2-6.8.2-.7.5-6.4.6-12.5.2-9.3 0-11.5-.4-13.4-.4-2-.4-3-.1-5.6.3-2.5.3-3.5 0-4.4-.3-.9-.4-1.6 0-2.9.1-.9.3-4 .2-6.8 0-2.8.2-6 .4-7.2.3-1.7.2-2.3-.3-4l-.7-2 .8-2.1a57 57 0 0 1 1.5-3.5l.6-1.3-1.1-1.6c-2-2.7-2-3-.7-6.2l1-2.9-1.5-2.2c-1.7-2.5-2-2.8-5-3.4-1.8-.4-2.2-.3-4.2.5-3.4 1.4-4 1.4-7.4.7-2.8-.5-3.6-.5-7-.2-3 .4-4.2.4-6 0-2.4-.4-6.7 0-8.8 1-1.8 1-2.8 3.9-5.1 15.4-1.5 7.4-2.1 10-2.6 10.5-.4.3-1.9.8-3.3 1.2-3.7 1-4 .7-3.7-3 0-1.5.5-3.6.8-4.7.6-1.9.6-2 0-2.7-.5-.6-.6-.9-.2-3.3.4-2.2.4-3-.1-4.9-.5-1.7-.6-4-.6-10.1V6.8l2-3C3.2 2 4 1 4.5 1l3.8.6c2.8.6 3.7.6 8.3.2 2.8-.2 5.8-.3 6.6-.2.8.1 2.3 0 3.4-.2 1.5-.3 2.1-.3 2.7 0 .6.3 1.6.3 4.4 0 3.4-.4 3.6-.4 6.1.5l2.7.9 3.2-1L49 .9 51.9 2l3 1 2.6-.7c1.8-.5 3.8-.8 6-.9l4.2-.2c.5 0 2 .4 3.1 1l2.2 1 1.7-.7c1.6-.6 2.2-.6 5-.3 1.6.2 4 .3 5 .2 2.4-.2 3 .3 2.4 1.8-.2.5-.3 1-.2 1.2.5.5 5-1 6.3-2.2.7-.6 1.8-1.3 2.5-1.6 1.1-.3 1.5-.3 3.4.5l2.2 1 1.3-.8c1.1-.7 2-.8 6.6-1l6.5-.1c2.2-.1 7.8.8 9.2 1.5 1.4.7 1.8.6 2.4-.6.6-1.1 1.1-1 2.5.3l1.1 1.2-1.2 3c-.7 1.8-1.5 3.5-1.8 4-.3.4-1 2.1-1.6 3.9-1.1 3.5-1.1 3.6 1 5.9.9 1 .9 1 .4 3.2-.6 2.7-.6 3 .1 6 .5 2 .5 3 .2 4.9-.4 2-.3 2.5 0 3.3.5.8.5 1-.2 2.4-1 1.9-2.4 3.3-3.7 3.6-.6.1-1.1 0-2-.7-2-1.7-2.5-3.4-3.4-11.4-.4-4-1-8-1.2-8.9-.5-1.7-.4-1.9 1.4-2.9 1.6-.9 2-1.6 1.1-2-1.5-.5-6.3-2.6-6.6-3-.5-.4-2-.3-3.7.3-1.4.5-1.8.5-3.1 0l-2.1-.5c-.4 0-1.2-.4-2-.8l-1.4-.7-1.8.9a10 10 0 0 1-5 1c-2.8 0-3.3 0-5.1-.9-2-1-2-1-4.5-.5a8 8 0 0 1-3.9 0c-.7-.3-1.6-.4-2-.4-1.2 0-2.3 1.5-3 4.2l-.6 2.6 1 2.3c.8 2.2.9 2.6.8 7.4 0 4.7-.3 7.3-1 13.2-.3 1.4-.2 2.3.1 3.1 1 2.4.6 13.4-.6 17.7l-.7 2.7.6 2.4c1.5 5 1.6 6 1.2 9.2a61.2 61.2 0 0 0-.5 11.2c0 1 0 3 .2 4.7.1 2.5 0 3.2-.5 3.8-.5.8-.6 1 0 3 .7 3.3 1 10.4.8 17.4l-.1 11.9c0 7 0 8.7-.6 11-.6 2.5-.6 3-.1 4 .5 1.4.6 7.7.2 12-.2 2 0 2.9.7 5.3 1.3 4.6 2 5.4 6.3 6.5 3 .8 5.2 1 8.5.5 2.3-.3 2.3-.3 2.7.6.2.6.7 1 1.5 1.1 2.2.5 2.4 1.1 1.3 5.9l-.4 1.6h-8.8a44.9 44.9 0 0 1-10.5-.3c-.5.3-7.7.4-22.4.4H33.2zm27.7-26.1c.5-.6.1-1-.9-1s-1.8 1-1.1 1.2c.8.3 1.6.2 2-.2zm3.2-4.3c0-.6-1-1.4-1.4-1.2-.2 0-.2.4.2 1 .6.8 1.2 1 1.2.2zm9.8-.5c.1-.3 0-.4-.5-.4l-.8.6c0 .3.1.5.5.4.4 0 .7-.3.8-.6zm-6.5-44.8l.6-.8c0-.5-1.2-.3-2 .2-.3.3-.5.7-.4 1 .3.7.7.6 1.8-.4zm-3.5-82.3c.9-1 .3-1.5-1-1-1 .4-1 .4-.7 1.2.3.8 1 .7 1.7-.2zm45.2-6.9c.7-.3 1.2-.7 1.2-.9a6 6 0 0 0-1.6-1.3 14 14 0 0 0-7-2.1c-2 0-1 .6 1.7.9 2 .2 2 .2 1.8 1.1-.5 2.2-.4 2.4 1 2.6l1.5.2 1.4-.5zm11.4-3.5c0-.4-1.2-1.1-2.8-1.8-2.2-1-3-1.2-4.4-1-1.9.1-4 1-4 1.6 0 .1 1.3.4 3 .5l4.4.7c2.3.8 4 .7 3.8 0zM161 178.4c-.2-.1-2.1-.3-4.4-.3-6.4-.1-9.5-.3-12.8-.6-2.4-.2-3.4-.2-5 .3-2 .6-2.2.6-3 0-1-.7-1.8-2.4-1.5-2.8.1 0 1.6-.2 3.3-.2 2.9-.1 4.2-.4 3.7-.8-.4-.5-4-1-5.4-.7-1.3.2-1.6.1-2-.6-.2-.4-.3-1-.2-1.3.4-1 4.5-2.5 8-3 3.3-.4 3.4-.4 5.7.5 2.4 1 8 2 9 1.6.3-.2.5-.6.4-1.2 0-.8 0-1 1-1.2l4.3-1c3.8-1 5-.9 10.8.5l5 1.1c2.8.6 1.2 1.5-2.7 1.5-.8 0-2.4-.2-3.5-.5-2.6-.7-6-.7-6.2 0-.3.8-.3.8 2.8 1.6a26.5 26.5 0 0 0 13.7-.3c1.3 0 3.1.9 3.1 1.6 0 .8-2.1 6.1-2.4 6.1l-1.7-.5c-1.2-.6-1.4-.6-2.6 0-1.2.5-1.4.5-2.2 0-1-.6-1.3-.6-5.8 0-5.2.6-9 .7-9.4.2zm80.4 0l.3-.4.2.4c0 .2-.2.3-.4.3s-.2-.1-.1-.3zm3.6-1a20 20 0 0 0-4.2-1.5c-1-.2-2-.5-2.2-.7-.5-.5 2-3.7 2.8-3.7l2.7.5c1.8.5 2 .4 2.7-.1.6-.6.8-.6 2.1 0 2 .6 4.2.6 5.4 0 .4-.4 1.4-.9 2.2-1.2 1.6-.8 1.6-1.2.2-1.8-.6-.2-1-.5-1-.7 0-.1.7-1 1.5-1.8l1.6-1.6 2 .8a24.7 24.7 0 0 0 5.8 1.3c.7.1 1.2-.1 2.3-1 .7-.7 1.5-1.3 1.6-1.3.5 0 .4-1-.1-1.2-.3 0-1.2 0-2 .2l-3.1.3c-1.4 0-1.5 0-1.7-1.3-.2-1-.5-1.3-1.8-1.9-1.7-.7-2-1.3-1-2.2 1-.8 1.1-.8 3.6.3 1 .5 3 1 4.3 1.3 1.2.1 3 .5 4 .9 1.6.6 1.6.6 3-.2 1.9-1 3.4-.9 5.5.5l1.4.9-.3 2.4-.2 2.4 1.5.2 5.8 1.3c4.5 1.1 6 1.1 8.9.3 1.6-.5 2.9-3.4 2.9-6.7 0-1.7.2-2.8.8-4 .7-1.7.7-2.3.7-8.5 0-5.5 0-7.1-.6-9.2l-.7-2.6 1-1.3 1.7-2.3c.5-.7.8-1.6.9-3.8.1-2.5 0-3.1-.7-4.9-.9-1.9-1.5-6.3-1.4-9v-2.3c-.2-4.6 0-8.5.4-9.8.4-1.3.4-1.7-.2-3.5-.6-2-.6-2.2.1-4.6l.7-2.5-.8-2.3a90 90 0 0 0-1.2-3.3c-.4-1-.4-1.3-.1-2 .8-1.5 1.8-5.4 1.9-7.2 0-1-.2-2.8-.6-4.2-.5-2.1-.5-2.6 0-4 .9-2.9 1-3.5.4-5.8-.3-1.2-.6-3.4-.7-4.9-.3-2.5-.2-2.9.6-4.7 1-2 1-2.1.7-7.7-.1-4.1-.4-6.3-.9-7.7-.6-2-.6-2.2 0-4.2.5-2 .5-2.2 0-4.1-.6-2-.6-2 .2-2.8.7-.8.7-.9 0-1.3-.4-.4-.6-1-.7-4 0-2.8-.3-4.3-1.2-7-1-3.3-1-3.4-2.8-4.2-2-1-3.3-1.1-5.3-.3-1.5.6-1.5.5-8.2-1.4-1.8-.6-2.7-1.8-3-4-.1-1.6 0-1.8 1.2-3 1.4-1.5 1.9-1.6 4.8-1 1.8.4 1.8.4 2.8-.7 1-1.2 1.4-1.3 4.8-.6 1.4.3 5 .6 8 .8 6.8.2 6.2.2 10.5 0 2.7-.3 3.8-.2 5 .3 2.2.7 7.4.7 9 0a33.7 33.7 0 0 1 15-1c4.6.3 7 .4 7.5.2a19 19 0 0 1 8.4-.4c2.6.3 3.7.3 5.5 0 2-.4 2.3-.4 3.9.4a24 24 0 0 0 9.6 1.6c2-.4 8.1 2.4 14.5 6.7l5.6 3.8 2 3.2c2 3.2 3.5 6.7 4.3 10.1.3 1.5.3 1.8-.2 2.3-.5.5-.4.6.6 1.6 1 .9 1.4 1.9 2.1 4.2l1 3-1.5 4.7c-1.1 4-1.4 5.2-1.4 7.8 0 3.5-.8 6.3-2.4 8.6-.6.8-1.3 2.5-1.7 3.7-.6 2-.9 2.6-3.6 5.3a40.8 40.8 0 0 0-3.7 4 5 5 0 0 1-1.6 1.4 11 11 0 0 0-2.5 2.5l-3.6 4.3c-2 1.9-2.6 2.3-4.7 3a19 19 0 0 0-4.2 1.9c-2 1.3-8.7 3.5-10 3.1-1-.3-4.4 1.4-5.5 2.9-1.2 1.5-1 2.1.7 2.4 1.6.3 1.8.2 1.3-1-.5-1-.3-1.6.6-1.6.8 0 3.1 3 3.8 4.9.3.9 1.2 2.4 2 3.4 1.4 1.8 1.5 2.3.7 3-.8.7-1.4.2-2.4-2.4a9.9 9.9 0 0 0-1.2-2.5c-1 0-3.4 1.7-4.7 3.2l-1.5 1.8 1.8 1.6c1 1 2 2.1 2.3 2.7a5 5 0 0 0 2 1.4c.7.3 1.9 1 2.6 1.7.8.6 1.5 1 1.6.8 0 0 0-1.2-.3-2.4l-.4-2.2 1.2-1c.6-.5 1.4-1 1.7-1 .8 0 2.7 2.3 3.2 3.9.4.9.7 1.1 1.4 1.1s1 .2 1.1.9c.1.5 0 1.2-.3 1.5-.5.8-.2 1.4 4 8 2.8 4.2 3.2 5.3 2.5 6.1-.6.5-.8.5-2.6 0a7 7 0 0 0-3-.4c-1.3.3-2.3 0-2.6-1-.3-.8-1-.8-1.6 0-.3.2-1.1.9-2 1.4-1.5.8-1.5.8-2.6.2-1-.6-1.1-.6-1.8.2-2 2.7-4.3 4.3-6 4.3-.7 0-1.4-1-1.4-2.2 0-1.2-1.3-3.6-3-5.5-1.7-2-5-6.7-6-8.8-.5-.8-2-2.6-3.7-4-2.6-2.6-2.8-2.8-2.6-3.8.3-1.5-.4-2.7-3.1-5a30.2 30.2 0 0 1-4.6-5.6c-6-9-6-9.2-4.8-11.2.5-1 1-1.2 2.5-1.5 4.3-.8 6-.8 9.8 0l3.7 1 1.6-1 1.5-.8 2.4 1c1.5.5 2.7.8 3.3.6.6-.1.9 0 1 .4.3.5.6.6 2.1.3l4.4-.3c3.3 0 3.3-.7-.3-2.4a10 10 0 0 1-2.7-1.6c0-.7 1.6-2.4 3.5-3.6a15 15 0 0 0 3.3-2.9c.7-.9 2-2 2.8-2.6a4.7 4.7 0 0 0 2.3-2.6c.3-.9 1.2-2.4 2-3.4a68 68 0 0 0 3-4c.8-1.3 1.7-2.4 2-2.6.2-.1.3-.5.2-.8-.1-.4.9-1.6 3.3-4 2-1.8 4.6-4.6 6-6 1.3-1.5 3.2-3.2 4.2-4 1.1-.7 1.8-1.4 1.8-1.9 0-1.1-3.4-1.1-6 0-3.5 1.6-4.1 2.1-4.1 4.1 0 2.3-.3 3-2.2 5.2-2.8 3-3.8 2.7-3.8-1.2 0-1.4.3-2.8.7-3.9l.8-1.7-.8-2.2c-1-3-1-4 .5-5.6 1-1 1.4-1.2 2.2-1l3.7.4c3.2.3 3.6 0 2.6-2-.8-1.5-1.4-1.6-3.5-.6-2.2 1.2-3.5 1.2-5.5.2-1.5-.8-1.6-.9-1.5-2.4.1-1.3 0-1.7-1.3-3-.8-.9-1.9-2.6-2.5-4-1.8-4-3.8-5.6-11.1-9l-4.2-2-7.8-.3c-9.7-.5-16-.3-17.4.5-.6.3-2.5.8-4.2 1-2.3.5-3.3.9-4 1.5-2.2 2-2.7 5-1.2 6.4 1.2 1.1 1.1 1.7-.2 2.1-1.1.4-1.2.7-.7 2.6.2.8 0 3-.4 6.1-.8 6.4-.8 9.6 0 11.2a48 48 0 0 1-.1 15.4c-.5 2.6-.5 3.1 0 6 .7 3.8.7 5.4 0 6.3-.6.8-.7 1.7-.1 2.6.3.5.3 1 0 2.3-.6 2-.6 7 0 7.9.3.5.2 1.2-.4 3.2-1 3.3-1 3.4.2 5.4 1.1 2 1.1 2.7 0 7.8-1 4-1 4.4-.7 7 .3 1.6.3 3.9.2 5-.1 1.9 0 2.6.6 4.2.7 1.8.8 2.6.8 7.2 0 3-.1 5.5-.3 5.8a60.7 60.7 0 0 0-.4 10.5c0 1.4-.1 2.3-.6 3.1l-.7 1.2 1 2.9 1 2.8-1 .8c-.8.7-1.2 1.6-.5 1.6.2 0 .8.4 1.4.9 1 .8 1.1 1.1 1.1 2.5 0 11 .2 11.4 4.4 12 2 .2 3.2.6 4.3 1.2 1.4 1 1.6 1 6.1.9 3.5-.1 4.8 0 5.1.3.6.6.4 2.3-.7 5.4l-.7 2.3-7.3.1-7.3.1-1.6-1.6-1.6-1.6-1.5 1c-2.5 1.8-5.8 2.4-11.7 2l-7.3-.2-13.6.2-11.3.3-1.3-1c-1.6-1-1.5-1-5-.1-3.2.8-11.5 1.4-11.5.8 0-.4 1.3-.8 5-1.6 2.7-.6 2.8-.7 2.3-2.5-.7-2.3-1.6-2.5-4.5-.7-1.3.8-3.1 1.7-4 2-1.5.4-1.8.6-2 1.5-.2 1.3-1.2 1.5-8.6 1.4h-5.6l-2.4-1.2zm68.2-3.5l-.4-.4c-.2 0-.3.1-.3.4 0 .4.1.6.3.5.2 0 .4-.3.4-.5zm-34.3-1.7c.7-.5 1.5-2.5 1.3-3.1-.3-.6-4.2-3-5.5-3.3-.8-.2-1 0-1.1.6-.2.5-.4.7-1 .5-.3 0-.9 0-1.3.3-.6.6-.6.6 0 1.1.6.5 1.2.5 2.8.4 1.5-.2 2.1 0 2.5.3.5.5.5.7-.1 1.6-1 1.4-1 1.8 0 2.1 1 .3 1.6.1 2.4-.5zm40.4-.7a5 5 0 0 1 1.8-.6c.5 0 .9-.1.9-.3 0-.5-1.2-1-3.3-1.2-1.9-.3-2.4.2-1.7 1.7.4 1 .9 1.1 2.3.4zm-8.6-3.7c0-.4-2.2-1.8-2.8-1.8-.7 0-.4.7.8 1.4 1.2.8 2 1 2 .4zm6.2-13.1c2.5-.5 2.9-1 1.2-1.8-1-.3-1.3-.3-2.6.3l-2.6 1c-1.2.2-1.5.7-.7 1 .5.2 1 .1 4.7-.5zm3.2-4c1.8-.5.8-1-4.2-2.5l-3.3-.9c-.4 0 0 1.1 1 2.5l1 1.5 2.4-.3c1.3 0 2.7-.3 3.1-.4zm-7-14.8c-.4-.5-1.2.2-.8.8.2.3.4.3.7 0 .4-.3.4-.5.2-.8zm62-19.7c-.3-.7-2-1.8-2.3-1.5-.6.4-.4.7.8 1.3 1.4.7 1.7.7 1.5.2zm-22.4-26.8c2.9-2.8 3.7-3.8 2.8-3.8a18 18 0 0 0-6.5 4.7c-.6 1-.5 2 .2 2 .2 0 1.8-1.3 3.5-3zM341 91.2c.3-.4.3-.7 0-.9-.5-.3-1.7.5-1.7 1.1 0 .8 1.3.6 1.7-.2zm-27.1-75c.8-.8 1-.9 3.2-.7 2.3.3 4.2 0 4.2-.5 0-.4-.8-.6-4-1-3-.5-3.2-.5-4 .2-.7.5-1 1.1-1.1 1.8-.2 1.4.5 1.5 1.7.2zm15-3.3c1.2-.7 1.4-1 1-1.5-.1-.1-1 0-2 .3-3 .9-2.9.8-2.4 1.4.6.7 2 .6 3.5-.2zm-8.9-.7c.2-.2 0-.5-.6-.7-1.6-.6-2-.5-2 .5 0 .9 0 1 1.1.7.7-.1 1.3-.4 1.5-.5zm73.6 166c-.3-.2-1.4-1.3-2.3-2.5-1.5-1.7-2-2.7-2.8-5.1-.5-1.7-1.2-3.3-1.5-3.6-.3-.2-1-1.5-1.6-2.8-.7-1.4-1.9-3.1-3.2-4.5a25.6 25.6 0 0 1-3.4-4.5c-.6-1.3-1.7-3-2.4-3.9a56.9 56.9 0 0 1-4.3-6.7l.9-1.4c1.3-1.7 1.1-2-1-1.7a6 6 0 0 1-2.5 0c-.9-.5-4.5-6.2-4.5-7 0-1 .6-1.3 5.3-3.2 1.7-.7 4.4-1.5 6-1.8 1.7-.3 4.2-1 5.6-1.6a19 19 0 0 1 3-1c.3 0 2.3 1.6 4.5 3.6 3.3 3 4.3 4.1 5.5 6.2.8 1.5 2.4 3.6 3.5 4.8 1.7 1.7 2.4 2.7 3.3 5 .6 1.5 1.6 3.3 2 4 .9 1 1 1.2.5 2.4-.5 1.3-.4 1.5 1.1 2 .8.2 2 1.3 3.5 3.3 1.3 1.7 3.6 4.2 5 5.6a71 71 0 0 1 3.8 4l1.2 1.4 3.2-.5c4-.8 4.8-.7 7.3.3 2.4.9 8 1.8 8.9 1.5.4-.2.5-.6.5-1.2-.1-.8 0-1 1-1.2l4.3-1c3.7-1 5-.9 10.8.5l5 1.1c2.8.6 1.2 1.5-2.7 1.5-.9 0-2.5-.2-3.5-.5-2.7-.7-6-.7-6.3 0-.2.8-.2.8 3 1.6a26.5 26.5 0 0 0 13.6-.3c1.3 0 3 .9 3 1.6 0 .8-2 6.1-2.4 6.1l-1.6-.5c-1.2-.6-1.4-.6-2.6 0-1.3.5-1.4.5-2.3 0-.8-.6-1.2-.6-6 0-3.6.4-6 .5-7.8.3l-6-.4-6.5-.2c-1.7 0-4.2-.2-5.7-.4-2.3-.3-2.8-.2-4.1.5-1.6.8-3.6 1-4.2.3a150.8 150.8 0 0 1-24.1 0zm8.2-.8v-.7c-.2-.6-1.4-.6-1.7 0-.4.6 1.2 1.3 1.7.7zM388.8 156c0-.3-.3-.6-.6-.6s-.5.3-.5.6c0 .2.2.5.5.5s.6-.3.6-.5zm-2.3-20.7c-.2-.2-.6-.3-1-.3-.3 0-.6.1-.6.3 0 .2.4.4.9.4s.8-.2.7-.4zm-5.7-2.3c.3-1 0-1.6-.7-1.6s-1.2 1.5-.8 2c.6.8 1.3.6 1.5-.4zm142.5 45.4l.4-.4.2.4c0 .2-.2.3-.4.3s-.3-.1-.2-.3zm3.6-1a20 20 0 0 0-4.2-1.5c-1-.2-2-.5-2.1-.7-.5-.5 2-3.7 2.8-3.7l2.7.5c1.8.5 2 .4 2.6-.1.7-.6.8-.6 2.2 0 2 .6 4.2.6 5.3 0 .5-.4 1.5-.9 2.2-1.2 1.6-.8 1.7-1.2.3-1.8-.6-.2-1-.5-1-.7 0-.1.6-1 1.5-1.8l1.6-1.6 2 .8a24.7 24.7 0 0 0 5.8 1.3c.6.1 1.2-.1 2.2-1 .8-.7 1.5-1.3 1.7-1.3.5 0 .4-1-.2-1.2-.2 0-1.1 0-2 .2l-3 .3c-1.5 0-1.5 0-1.8-1.3-.2-1-.4-1.3-1.7-1.9-1.7-.7-2-1.3-1-2.2 1-.8 1-.8 3.5.3 1.2.5 3.1 1 4.4 1.3 1.2.1 3 .5 4 .9 1.6.6 1.6.6 3-.2 1.8-1 3.4-.9 5.4.5l1.4.9-.2 2.4-.2 2.4 1.8.3a6 6 0 0 0 2.5 0c.3 0 2.3-2.8 4.4-6 2-3.1 4.6-6.5 5.5-7.6a10 10 0 0 0 2.4-4.3c.7-2.5 1.2-3.1 7.5-11.3.8-1 3.5-5 5.9-8.8a139.4 139.4 0 0 1 7.3-11c.8-1.5 1.8-2.9 2.2-3.3l1.5-2c1.3-2.5 3-4.1 6.8-6 3.5-1.7 5.1-2.9 5.1-3.6 0-.2-.4-.7-1-1.1-.7-.6-.8-.8-.4-.8.3 0 1.2.4 2 1 .7.6 1.5 1 1.7 1 .7-.3 1.2-1.8.9-2.4-.5-1-.4-1.5.5-2.6.8-1 1.2-1.1 3-1.3 1.8-.1 2.3-.3 2.4-.7.1-.8-3-1.8-6-2-1.3-.1-2.2-.4-2.3-.7 0-.2 1-1.9 2.3-3.6a23 23 0 0 0 2.8-4.4c.2-.9.5-1.1 1.3-1.2.9-.1 1-.2.7-1.2-.2-1 0-1.3 1.2-2.5l3.2-4c1-1.5 2.5-3.4 3.3-4.3a10 10 0 0 0 1.7-3c.2-.9 1-2.3 1.5-3.3l1.6-2.7c.2-.5 1-1.2 1.8-1.6 2.3-1.2 4-1.3 8-.4 4.2.9 4.7 1.1 4.7 2.1 0 .8.9 1 1.3.3.1-.2 0-.8-.2-1.4-.6-1.4-.4-1.5 3.3-2 3-.5 4.8-1.2 4.8-1.9s-1.1-.7-2.5-.1c-1.7.8-2 .5-2.1-1.7-.2-1.7-.2-1.8-1.4-2.2-.6-.2-1.3-.7-1.4-1.2-.3-.8-1.2-1-1.6-.4-.1.2-1.2.4-2.3.4-1.6 0-2.1.1-2.1.5 0 .3.2.6.4.7.5.3.4 1.5-.2 1.7-.6.2-2.6-1-3.2-2-.3-.5 0-.8 1.3-2 1.8-1.5 2.7-3.6 3.4-7.2.3-1.8.6-2.3 1.7-3.2 1.5-1.2 3.5-3 4.6-4.5.8-1 .9-1 2-.5 1.6.7 2 .3 1.1-1.6-.6-1.3-.6-1.4.3-3.2.5-1 1-2.4 1.1-3a7 7 0 0 1 2.3-4.1c.6-.6 1.9-2.2 2.7-3.6l3-3.9c2-2 1.6-2.4-1.4-2.1-1.9.2-2.4.1-3.2-.5-.8-.6-1.6-.8-3.8-.8-1.5 0-3.1-.3-3.6-.6-.5-.2-1.4-.3-2.5-.2-1.6.2-1.7.2-1.9-.6-.3-1.1-1.4-1.6-2.1-.9-.7.7-5.4 1.9-10 2.6-5 .7-5.1.7-5-.3 0-.6-.4-1.6-1.6-3-1.7-2.3-2-2.4-3-1.8-1 .5-.9 1 .7 1.7.8.4 1.3 1 1.2 1.1-.4.6-2.7.8-3.6.3-.7-.4-1.3-.4-4 .2-5.8 1.1-12 1.7-15.4 1.5-2.9-.2-3.5-.2-4.7.5-1.3.6-3.6 1.2-9.5 2.1-1.3.2-2.6.6-2.9.7-.7.4-1 3-.5 4.3.2.7.1 1.5-.4 3.5-.5 1.4-1.1 4.8-1.5 7.5-1 7.4-1.6 8.9-3.3 10.2-1.3.9-1.7 1-3.3.9-2.7-.3-3.8-1.3-3.7-3.9l.1-7.7c.1-3.5.4-6.5.7-7.7.4-1.4.4-2.2 0-4-.3-1.6-.3-2.6 0-3.3.4-1.1.4-3.2 0-3.5a96 96 0 0 0-1.3-5.4c-.6-2.5-.6-2.6 0-3.5.5-.6 1-1.8 1.4-2.7.4-1 1-1.8 1.2-2l3 .5c3 .7 7.6.6 10.9-.2 1.7-.5 2.1-.5 4.5.1 2.5.7 2.5.7 5.2 0 1.5-.4 3-.7 3.5-.6l4.6 1.1 4 1 2.6-.6c2.5-.6 2.8-.6 4.7 0 1 .2 2.8.5 3.7.4 2-.1 2.5.4 1.4 1.4-1.4 1.1-1 1.4 2.6 1.4 3.5 0 6.1-.5 9.5-2a25 25 0 0 1 7.7-1.4c5.8-.5 6.1-.5 10.6.3l6.5 1.1c1.6.4 1.9.4 2.8-.3.5-.4 2.2-.9 3.6-1.1 2.4-.4 2.6-.4 4.8.5l2.3.9L682 2l2.4-.6 2.2.7c2.2.6 3.3.4 9.7-1l2.6-.7 1.4 1.4 1.4 1.4v3.7c0 3.4-.1 3.9-1 5.3a82 82 0 0 0-2 3.9c-.9 1.6-2 3-4.1 5a24 24 0 0 0-4.7 5.8 16 16 0 0 1-2.7 3.7c-1.5 1.1-4 4.6-6.1 9l-3.7 7c-.1.3-1.5 1.8-3 3.4-2.2 2.5-2.8 3.3-3 4.6-.3 1.4-.8 2-2.8 4.2a40.8 40.8 0 0 0-3.4 4c-2.1 3-2.5 3.4-3.8 3.6-1.6.3-2 .7-1.3 1.5 1 1.1 1 1.4-.4 3-.8 1-1.5 2-1.6 2.6l-.5 2c-.2.7-.8 1.5-2 2.4-1.3 1-1.9 1.8-2.5 3.3-1.2 3-2.8 4-3 2-.1-1-.2-1-2-.9-1.8.2-3.4-.4-4.9-1.7-.8-.8-1.5-.6-2.9 1l-.9.8.9.7.9.7-1 .8c-1.6 1.4-1 3.4 1.4 4.2 1 .3 1.3.3 1.8-.2s.5-.6 0-1.2c-1.1-1.2-.7-1.9 1.7-2.6 3.1-1 3.5-.9 3.8.6.2.8.1 1.5-.2 1.8-.2.2-1.2 2.5-2.2 5-1.9 4.3-2 4.5-3.5 5.3a5 5 0 0 0-2.5 2.5 288.8 288.8 0 0 0-12.4 19.4l-3.6 5.3c-1 1.4-2.6 3.6-3.7 4.8-1.8 2-3 4.6-3 6.4 0 .3-1 1.1-2 2-1 .8-2.3 2.2-2.9 3.3-.6 1-2.2 3-3.5 4.4-2.2 2.2-2.5 2.4-4 2.4-.8 0-1.4.1-1.4.3l1 1.4 1.2 1.1-.6 1.6c-1 2.6-3 5.1-4.5 5.5-1.5.4-1.5.4-1 1.4.4.5.3.9-.1 1.9-.8 1.6-.8 3.3 0 3.7 1.2.7 5.7.9 8.2.4a9 9 0 0 1 4.4 0c1.5.3 2 .3 2.6 0 .5-.4 1.2-.4 3.4.1 3.4.8 8 .8 10.2 0 1.6-.5 1.8-.5 3.7 0 1.1.4 2.9.7 4 .6 2.2 0 4.7.5 5 1.1.2.2 0 .7-.3 1-.6.6-.6.8 0 1.8l.7 1 1.5-.7c1-.7 1.5-.7 3.6-.6 1.7.2 2.6.1 3-.2.6-.4.6-.5 0-1.2-.5-.4-1.5-.8-2.4-.9-2.2-.3-4.5-1.3-4.5-1.9 0-.4.2-.4.6-.3.4.2 1.7.4 3 .7 2 .3 2.6.2 3.7-.3 1-.4 1.4-.5 2-.2a5 5 0 0 0 2.4.2c1 0 2 0 2.4.2.5.3 1 .3 2.5-.3 2.3-1 3.2-1 4 0 .5.4 1.3 1 2 1.2 1 .5 1.2.4 2.7-.6l1.7-1 .8.7c1 .9 1 1.8.3 2.4-.3.3-.6.7-.6 1 0 .8 1.3.5 3-.8 2.4-2.1 6-3.7 8.3-3.7l2.7-.2c1-.3 4.3-4.6 6-8l1.6-3.1-.6-1.6c-.7-2.1-.6-3.7.2-5.5.4-.8.7-2.2.7-3 0-.8.2-1.6.5-1.9.5-.3.5-.6 0-1.8-.5-1.2-.5-1.5 0-3.1.7-2.1 1.2-2.5 4.3-2.7 2-.2 2.3-.2 3.5.7l1.2 1-.2 3.4c0 1.8-.3 4.3-.5 5.4a8.2 8.2 0 0 0 0 3.6c.5 1.9.3 3.6-1.3 8.4l-.8 2.8.7 2.1c.4 1.2.6 2.3.5 2.5a37 37 0 0 0-.1 5.1c0 6.6 0 6.4-.6 7.6-1.2 2.4-1.3 2.4-8 2.4-4.9 0-6 0-6.8-.6-.8-.5-1.2-.5-4-.1-2.2.3-3.3.3-4 0-.8-.3-1.4-.2-2.6.2-1.2.4-3 .5-7.6.5-3.3 0-6-.2-6.2-.4a80 80 0 0 1-16.7-.3c-1.7-.4-2.4-.4-3.4 0-1 .3-1.3.3-2.2-.2a4.9 4.9 0 0 0-4.1 0c-1 .3-6.5.6-14.4.6-3 0-3.9 0-5.6-.8l-2.1-.9-4.1.8c-3.7.8-4.4.9-6.8.5-2-.3-3.3-.3-5 0-1.3.2-8.4.4-16.9.5l-14.7.2-1.3-.9c-1.5-1-1.5-1-5-.1-3.1.8-11.4 1.4-11.4.8 0-.4 1.2-.8 5-1.6 2.6-.6 2.8-.7 2.3-2.5-.7-2.3-1.7-2.5-4.6-.7-1.2.8-3 1.7-4 2-1.4.4-1.7.6-1.9 1.5-.2 1.3-1.3 1.5-8.6 1.4h-5.7l-2.4-1.2zm34-5.2c.7-.5 1.5-2.5 1.2-3.1-.2-.6-4.2-3-5.5-3.3-.7-.2-1 0-1 .6-.2.5-.5.7-1 .5-.3 0-1 0-1.3.3-.7.6-.7.6 0 1.1.6.5 1.2.5 2.7.4 1.6-.2 2.2 0 2.6.3.5.5.5.7-.1 1.6-1 1.4-1 1.8 0 2.1.9.3 1.6.1 2.4-.5zm15.9-3.1c0-.6-2-2.6-2.4-2.3-.4.5 1 2.7 1.7 2.7.4 0 .7-.2.7-.4zm44.4-.3c0-.6 0-.7-.5-.3-.3.2-.5.6-.5.7 0 .2.2.3.5.3s.5-.3.5-.7zM601 143.9c-.1-.3-.3-.4-.4-.3v.5c.4.6.6.5.4-.2zm15-34.7c0-.4-1.4-1.4-1.9-1.4-.6 0-1.7 1-1.4 1.4.3.5 3.3.5 3.3 0zm8-5.4c.3-.5 1.3-1.1 2.3-1.5 1.6-.5 3.1-1.7 2.7-2.1 0-.1-1.6-.3-3.4-.4l-3.3-.2.2.8c.7 2.5.7 2.5 0 2.7-1.3.3-1 1.4.5 1.5.2 0 .7-.4 1-.8zm63.7-87c0-.2-.2-.4-.4-.4s-.3.2-.3.4.1.3.3.3c.2 0 .4-.1.4-.3zM643.5 11c0-.7-1.1-2.4-2.2-3.3-1-.9-2-1.2-2-.6a11 11 0 0 0 2.7 3.5c1 .9 1.5 1 1.5.4zM150.5 166c-1.5-.2-2.3-.7-2.3-1.4 0-.2.3-.5.8-.8 1.4-1 3.3-5.1 4.4-9.7 1-4 3.2-9.3 4.4-10.3a9 9 0 0 1 2.8-.8c1.2-.2 2.4-.5 2.5-.7.2-.1-.7-.7-2-1.3-2-1-2.4-1.2-2.3-2 0-1.4 1.2-4 4-8.2 1.3-2 2.4-4.2 2.6-5l.3-1.2 2.3-.1c1.3-.1 2.4-.3 2.4-.4 0-.4-1.3-.8-2.5-.8-1.4 0-1.9-.8-1.2-2 .3-.6.5-1.5.5-2 0-1.1.4-1.5 1.9-1.8.8-.1 1.3-.3 1.2-.4l-2.5-.5c-1.3-.1-2.5-.4-2.6-.5 0 0 0-.7.3-1.4.2-.7.3-1.4.2-1.5-.1-.1-1.3.8-2.5 2l-2.3 2.2-3-.6a188 188 0 0 0-18.6-1.6c-1 0-1.4-.2-2-1l-1-1.1-3 .4c-7.3.8-9.3 1-14.5 1-6 0-6.7-.1-9.9-2.2-1.7-1-2-1.8-1.1-2.2.3 0 2.1 0 4.1.2l3.7.5 2.7-1.6 2.8-1.5 1.3.6c1.3.6 1.4.6 3-.2 1.5-.7 1.8-.8 3.6-.4 3.6.7 6.2.9 7.7.5 3-.8 10.9-1.5 13-1l7.2.2h5l2.6 1.8 2.7 1.8 1.2-1.9c1.8-2.8 1.9-2.8 5.3-2.6 2.9.3 4.8 0 4.8-.8 0-.2-.8-.6-1.8-1-1-.3-1.9-.8-2-1 0-.3.2-1 .6-1.7 1-1.6 1-2-.2-1.9-.8.1-1 0-1.1-.8 0-.5.2-1.3.6-2 .5-.8 1-1.1 2.8-1.5 2.3-.5 2.7-1 1.4-2-.5-.4-1-.8-1-1-.6-.8 1-5.3 2.2-7 .7-.9 1.7-2.8 2.2-4.4.5-1.5 1.4-3.6 2-4.7.7-1 1.4-2.5 1.5-3.3.2-.8 1-2.8 1.8-4.6l1.8-4.4c.1-.7 1-2.6 1.8-4.3 1-2.1 1.7-4.1 2.2-6.7.4-2 1.8-6.3 3-9.5l2.1-5.8 3.3.1c1.7.1 3.3 0 3.4-.1 0-.2-.8-.8-2.1-1.4-2.8-1.2-2.9-1.7-.5-4.8 2.2-3 3-3.6 5.8-4.5 1.9-.7 2.3-.9 2-1.3-.7-.8-2.8-1.3-3.9-1-1.4.6-1.9.2-1.7-1.6 0-1.5.1-1.6 1.5-1.9 1.9-.4 2-.6 1.2-1.8-.7-.9-.7-1-.3-3.3.2-1.3.8-3 1.2-4 .5-.8 1.2-2.7 1.6-4 .6-2 .9-2.7 1.4-2.7.5 0 .7.5 1 1.6.3 1.2.6 1.6 1.1 1.7h1.2c.2 0 .4-.4.4-1 0-.8.2-1.4.5-1.6l5.7-2.7c.2 0 1.2 1.2 2.4 2.7 1.9 2.5 2.1 3 1.8 3.6-.3.6-.2 1.2.7 3.3 2 5 3.7 10.5 3.7 12.8 0 2.2 0 2.2 1.4 3 1.7 1 2 1.5.9 2.4-.8.7-.8.7-.2 1.2l1 .7c.3 0 .2.4-.2.9-.5.5-.6 1-.4 1.2l1.5 2c1.2 1.6 1 2.1-.2 1.4-1-.5-1.5-.2-1.5.9 0 1 .2 1.1 3.2 2.3 2 .9 2.3 1.1 2.7 2.3.8 2 .5 2.4-2 2.1-1.9-.2-2-.2-3.5 1-.9.6-1.5 1.3-1.4 1.5 0 .2.8.5 1.6.7 1.5.4 4.3 2 5 2.7.4.5.2.8-.8 2-.7.8-1.9 1.6-2.6 1.8l-2.7 1.1c-1.2.7-1.3.8-.8 1.2l3.5.9c3.6.5 8 1.9 9.5 2.9s6 10.3 6 12.4c0 2-.3 2.3-2.6 3.2-1 .4-1.8 1-1.8 1.2 0 .3 1.2 1 2.8 1.5 3.4 1.3 3.6 1.4 3.9 3 0 .8.6 2.3 1.2 3.5.9 1.7 1 2.3.9 3.5-.4 2.2-.6 2.5-2 2-1.2-.6-1.4-1.3-.3-1.7 1.3-.4.7-1-1.4-1.9l-2.1-.8-1.1 1a16 16 0 0 1-5.6 2.8c-1 .2-1.2.1-1.8-1-.6-1-1-1.3-1.8-1.3-1.6 0-2.8.6-2.8 1.4 0 1.6-4 1.1-4.5-.6a20 20 0 0 1 0-3.8c.2-3 .2-3-.9-4.3-1.3-1.7-5.9-11.2-5.9-12.2l.5-2.7c.3-1 .4-2 .4-2.3l-1.8-1.5c-2.7-2-1.8-2.7 2.2-1.5 2 .5 2.8.6 3.3.3.4-.2.7-.5.7-.7a8 8 0 0 0-1.6-2.8l-3.2.8a13 13 0 0 1-3.4.5c-.3 0-.6-1-.7-2.2a11 11 0 0 0-2-4.9 15.7 15.7 0 0 1-2.5-6.2c-.7-3.7-.7-4 1.3-6 1.1-1.2 1.2-1.4 1-2.3-.4-.8-.6-1-1.4-1-1.8.2-4.6 1.2-5.8 2.2-1 1-1.2 1.2-1.4 3.4-.2 2.2-.5 2.8-2.1 5.1-1 1.4-1.8 2.9-1.8 3.1l-1 3.6c-.6 1.7-1.2 3.8-1.3 4.8-.4 3.5-1 5.4-3.8 12.3-4.4 11-5.6 13-8 13.7-1.7.4-2 .7-1.3 1.3.3.3.6.7.6 1 0 .6.5.6 1 0 .4-.5.6-.5 1-.2 1 .8.4 2.5-1.9 5.6l-2 3.4c-.3 1-.9 1.9-1.1 1.9l-1.8-.9c-1.4-.8-4-1.2-4-.6 0 .7 2.4 2.6 4.1 3 1 .4 2 .8 2 1.1.1.3-.3 1.5-.9 2.7-.6 1.1-1 2.3-.9 2.4.4.6 3.6 1.5 7.1 2 3.4.3 3.5.4 3.4 1.2l-.2 2.3v1.4l-2.3.1c-1.9.1-2.5 0-4-.8-.8-.5-2-.9-2.3-.9-1.7 0-6 2.6-6 3.6 0 .5 1.8.3 4-.4l2.1-.8 5.3.9c4.6.8 5.4.8 6.2.4 1.3-.6 2.8-.6 2.8 0 0 .7-2 2.3-3 2.6-.5 0-2.2 0-3.8-.4-3.8-.8-3.9-.7-7 .5-2.3.8-3.4 1-5.6 1h-2.8v1.7c.1 1.5 0 2-1.3 4-1.4 2.2-2 2.7-4.2 3.6l-1 .4 1.5.1c.8.1 1.6.4 1.7.6 0 .3-.3 1.4-1 2.4a26.2 26.2 0 0 0-2.8 8.4c-.2 1.3-1.2 4.7-2.1 7.6-1 2.9-2 6.4-2.4 7.8-.4 1.3-1.5 3.9-2.5 5.6-2.2 4.2-2.6 4.5-9.1 4.5l-6.6-.1zm29.4-48c0-1 0-1-1.4-1-1.7 0-2 .4-.8 1.4 1.4 1 2.2 1 2.2-.4zm-1.1-9.4c.2-.6-3-1.5-4.2-1-.6.1-1 .4-.8.6.5.9 4.7 1.2 5 .4zm65.3-23c1.4-1.7 1.4-2.1 0-2.1-.9 0-1.1.2-2 1.7-1.4 3-.2 3.2 2 .4zM233.7 77c-.2-.4-.3-1.4-.2-2.3 0-1.3 0-1.5-.9-1.5-.6 0-1 .4-1.5 1.2-1 1.5-.8 2 .7 2.8 1.7.8 2.2.8 1.9-.2zm10-.3c0-.5-.4-.9-1.8-1.5-1.7-.8-2.1-.8-3.1-.5-2.6.8-2 1.7 1 1.7 1.2 0 2 .2 2.2.5.6.7 1.5.6 1.7-.2zm.6-7.6c.3-.8 0-1.2-1-1.2s-1.2.3-.4 1.2c.8.7 1 .8 1.4 0zm-3.7-2.5c0-.3-.3-1-.6-1.4-.7-1.1-3.6-3-4.2-2.8-.2.1-.6.8-.7 1.5-.3 1.6.2 2.2 2.5 2.8 2.4.7 3 .6 3-.1zm-8-3.2c.3-.4-.4-.9-.8-.6-.4.3-.2.9.3.9.2 0 .4-.1.5-.3zm-30.2-5.6c.3-.8-1-1-1.8-.1l-.8.8 1.3-.2c.6 0 1.2-.3 1.3-.5zm25.4-4c2-.4 3.9-1.9 2.8-2.3-.3-.1-1.4 0-2.4.2s-2.5.4-3.4.4c-1.8 0-3.3.7-3.3 1.5 0 .3.2.6.5.7.5.2 3.2 0 5.8-.5zM200 52c0-.4-.1-.6-.6-.6-.8 0-1.3.5-1 1 .4.6 1.4.3 1.6-.4zm27.1-2.8c0-.3-.4-.5-.8-.5-.3 0-.7.2-.8.5 0 .2.2.4.8.4.6 0 .9-.2.8-.4zm4.4-3.1c.6 0 .2-1.1-1.1-2.8-1-1.1-2.3-2.2-3.7-3-2.4-1.4-4.4-2.2-4.6-2-.3.4 1 3.7 1.5 4.3.9 1 6.5 3.8 7 3.6l.9-.1zm-2-8.7a3 3 0 0 0-1.6-.5c-.9 0-.9 0-.2.5.4.3 1 .5 1.6.5.9 0 .9 0 .2-.5zm-7-5.5c0-1.3-.2-1.5-.8-1.6-.8-.1-3.2 1.8-2.8 2.3.2.5 2.2 1 3 1 .4 0 .5-.5.5-1.7zm-7.6-2.3c1-.8.8-1.2-.3-1.2s-2.7 1-2.4 1.5c.3.5 2 .3 2.7-.3zm8.6-5.5c1.2-.8 1.8-1.6 1.4-2-.2-.2-3.7 1.5-3.7 1.9 0 1.1.8 1.2 2.3.1zm-5.5-.7c.8-1.5.2-1.8-2.8-1.3-1.9.4-2.5.6-2.4 1 .2.8 1.7 1.5 3.3 1.4 1-.1 1.5-.3 1.9-1zm-6.9-4c0-1-1-.9-1.1.1-.1.7 0 .8.5.8.4-.1.6-.5.6-.9zm5.7-2.3c1-.5 1.1-1 0-2-.8-.7-3.6-1.8-4-1.4-.2.3 1.5 3 2.3 3.4.8.5.6.5 1.7 0zM432.4 166c-1.5-.2-2.3-.7-2.4-1.4 0-.2.4-.5.9-.8 1.3-1 3.3-5.1 4.4-9.7 1-4 3.2-9.3 4.4-10.3a9 9 0 0 1 2.7-.8c1.3-.2 2.4-.5 2.6-.7.2-.1-.7-.7-2-1.3-2.1-1-2.4-1.2-2.4-2 0-1.4 1.3-4 4-8.2 1.3-2 2.5-4.2 2.7-5l.2-1.2 2.4-.1c1.3-.1 2.4-.3 2.4-.4 0-.4-1.3-.8-2.6-.8-1.4 0-1.8-.8-1.2-2 .3-.6.6-1.5.6-2 0-1.1.4-1.5 1.9-1.8.7-.1 1.3-.3 1.2-.4l-2.6-.5c-1.3-.1-2.4-.4-2.5-.5l.2-1.4c.3-.7.4-1.4.2-1.5 0-.1-1.2.8-2.4 2l-2.3 2.2-3-.6a188 188 0 0 0-18.6-1.6c-1 0-1.4-.2-2.1-1l-.9-1.1-3 .4c-7.3.8-9.3 1-14.5 1-6 0-6.8-.1-10-2.2-1.6-1-2-1.8-1-2.2.2 0 2.1 0 4.1.2l3.7.5 2.7-1.6 2.8-1.5 1.3.6c1.2.6 1.3.6 3-.2 1.4-.7 1.7-.8 3.6-.4 3.6.7 6.2.9 7.7.5 3-.8 10.8-1.5 13-1l7.1.2h5l2.7 1.8 2.7 1.8 1.1-1.9c1.8-2.8 2-2.8 5.4-2.6 2.8.3 4.8 0 4.8-.8 0-.2-.8-.6-1.8-1-1-.3-2-.8-2-1-.1-.3.2-1 .6-1.7 1-1.6 1-2-.3-1.9-.8.1-1 0-1-.8 0-.5.2-1.3.5-2 .6-.8 1-1.1 2.9-1.5 2.3-.5 2.6-1 1.3-2l-1-1c-.5-.8 1-5.3 2.3-7 .7-.9 1.6-2.8 2.1-4.4.6-1.5 1.5-3.6 2.2-4.7.6-1 1.3-2.5 1.4-3.3.1-.8 1-2.8 1.8-4.6.8-1.7 1.6-3.7 1.7-4.4l1.8-4.3c1-2.1 1.8-4.1 2.3-6.7.4-2 1.7-6.3 3-9.5l2.1-5.8 3.2.1c1.8.1 3.3 0 3.4-.1.2-.2-.8-.8-2-1.4-2.9-1.2-3-1.7-.6-4.8 2.3-3 3.1-3.6 6-4.5 1.8-.7 2.1-.9 1.8-1.3-.7-.8-2.7-1.3-3.8-1-1.5.6-1.9.2-1.8-1.6.2-1.5.2-1.6 1.6-1.9 1.9-.4 2-.6 1.2-1.8-.7-.9-.8-1-.3-3.3.2-1.3.8-3 1.2-4l1.5-4c.6-2 1-2.7 1.5-2.7.4 0 .7.5 1 1.6.3 1.2.6 1.6 1.1 1.7h1.1c.3 0 .5-.4.5-1 0-.8.2-1.4.5-1.6l5.7-2.7 2.4 2.7c1.9 2.5 2.1 3 1.8 3.6-.3.6-.2 1.2.6 3.3 2.1 5 3.7 10.5 3.8 12.8 0 2.2 0 2.2 1.4 3 1.7 1 1.9 1.5.8 2.4-.8.7-.8.7-.1 1.2l1 .7c.3 0 .2.4-.3.9-.4.5-.5 1-.3 1.2l1.5 2c1.2 1.6 1 2.1-.3 1.4-1-.5-1.4-.2-1.4.9 0 1 .2 1.1 3.2 2.3 2 .9 2.3 1.1 2.7 2.3.7 2 .4 2.4-2 2.1-2-.2-2-.2-3.6 1-.8.6-1.4 1.3-1.4 1.5.1.2.8.5 1.6.7 1.6.4 4.4 2 5.1 2.7.4.5.2.8-.8 2-.7.8-2 1.6-2.6 1.8l-2.7 1.1c-1.3.7-1.3.8-.8 1.2.3.2 2 .6 3.5.9 3.5.5 8 1.9 9.4 2.9 1.6 1 6 10.3 6 12.4 0 2-.3 2.3-2.5 3.2-1 .4-1.9 1-1.9 1.2 0 .3 1.3 1 2.8 1.5 3.5 1.3 3.6 1.4 4 3 0 .8.6 2.3 1.2 3.5.8 1.7 1 2.3.8 3.5-.3 2.2-.6 2.5-1.9 2-1.2-.6-1.4-1.3-.3-1.7 1.2-.4.7-1-1.4-1.9l-2.2-.8-1 1a16 16 0 0 1-5.6 2.8c-1 .2-1.2.1-1.9-1-.5-1-1-1.3-1.7-1.3-1.6 0-2.8.6-2.8 1.4 0 1.6-4 1.1-4.5-.6a20 20 0 0 1 0-3.8c.2-3 .1-3-.9-4.3-1.3-1.7-6-11.2-6-12.2l.6-2.7c.3-1 .4-2 .3-2.3 0-.2-.8-.9-1.7-1.5-2.7-2-1.8-2.7 2.1-1.5 2 .5 2.8.6 3.4.3.4-.2.7-.5.7-.7a8 8 0 0 0-1.7-2.8l-3 .8a13 13 0 0 1-3.6.5c-.2 0-.5-1-.7-2.2a11 11 0 0 0-2-4.9 15.7 15.7 0 0 1-2.4-6.2c-.8-3.7-.7-4 1.3-6 1-1.2 1.2-1.4.9-2.3-.3-.8-.6-1-1.3-1-1.9.2-4.6 1.2-5.8 2.2-1.1 1-1.2 1.2-1.5 3.4-.2 2.2-.4 2.8-2 5.1-1 1.4-1.9 2.9-1.9 3.1 0 .3-.4 2-1 3.6l-1.2 4.8c-.5 3.5-1 5.4-3.8 12.3-4.4 11-5.6 13-8 13.7-1.7.4-2 .7-1.3 1.3.3.3.5.7.5 1 0 .6.5.6 1 0 .4-.5.6-.5 1-.2 1 .8.4 2.5-1.8 5.6l-2 3.4c-.4 1-1 1.9-1.1 1.9-.3 0-1-.4-1.8-.9-1.4-.8-4.1-1.2-4.1-.6 0 .7 2.5 2.6 4.2 3 1 .4 2 .8 2 1.1.1.3-.3 1.5-.9 2.7-.6 1.1-1 2.3-.9 2.4.4.6 3.6 1.5 7.1 2 3.4.3 3.5.4 3.4 1.2l-.2 2.3v1.4l-2.3.1c-2 .1-2.6 0-4-.8-.9-.5-2-.9-2.3-.9-1.7 0-6.1 2.6-6.1 3.6 0 .5 2 .3 4-.4l2.2-.8 5.3.9c4.6.8 5.4.8 6.2.4 1.3-.6 2.8-.6 2.8 0 0 .7-2 2.3-3 2.6-.6 0-2.3 0-3.9-.4-3.7-.8-3.8-.7-7 .5-2.2.8-3.3 1-5.5 1h-2.8v1.7c.1 1.5-.1 2-1.3 4-1.4 2.2-2 2.7-4.2 3.6l-1 .4 1.4.1c.9.1 1.6.4 1.7.6.1.3-.3 1.4-.9 2.4a26.2 26.2 0 0 0-2.9 8.4c-.2 1.3-1.1 4.7-2 7.6l-2.5 7.8c-.4 1.3-1.5 3.9-2.4 5.6-2.2 4.2-2.7 4.5-9.2 4.5l-6.5-.1zm29.4-48c0-1-.1-1-1.4-1-1.8 0-2 .4-.9 1.4 1.4 1 2.3 1 2.3-.4zm-1.2-9.4c.2-.6-3-1.5-4.2-1-.5.1-.9.4-.8.6.6.9 4.8 1.2 5 .4zm65.4-23c1.3-1.7 1.3-2.1 0-2.1-1 0-1.2.2-2 1.7-1.4 3-.2 3.2 2 .4zM515.6 77c-.2-.4-.3-1.4-.3-2.3 0-1.3 0-1.5-.8-1.5-.6 0-1 .4-1.6 1.2-.9 1.5-.7 2 .7 2.8 1.8.8 2.3.8 2-.2zm10-.3c0-.5-.4-.9-1.9-1.5-1.6-.8-2-.8-3-.5-2.6.8-2.1 1.7 1 1.7 1.1 0 1.9.2 2.2.5.6.7 1.5.6 1.7-.2zm.5-7.6c.3-.8 0-1.2-1-1.2s-1 .3-.3 1.2c.7.7 1 .8 1.3 0zm-3.6-2.5c0-.3-.3-1-.6-1.4-.8-1.1-3.6-3-4.2-2.8-.3.1-.6.8-.7 1.5-.3 1.6.2 2.2 2.5 2.8 2.4.7 3 .6 3-.1zm-8-3.2c.3-.4-.4-.9-.9-.6-.4.3-.1.9.4.9.2 0 .4-.1.5-.3zm-30.2-5.6c.3-.8-1-1-1.8-.1l-.8.8 1.2-.2c.7 0 1.3-.3 1.4-.5zm25.3-4c2-.4 4-1.9 2.9-2.3-.3-.1-1.4 0-2.4.2s-2.5.4-3.5.4c-1.7 0-3.2.7-3.2 1.5 0 .3.2.6.5.7.5.2 3.2 0 5.7-.5zM481.8 52c.1-.4 0-.6-.6-.6-.8 0-1.2.5-.9 1 .4.6 1.4.3 1.5-.4zm27.2-2.8c-.1-.3-.5-.5-.8-.5-.4 0-.7.2-.8.5-.1.2.2.4.8.4.6 0 .9-.2.8-.4zm4.3-3.1c.7 0 .3-1.1-1-2.8-1-1.1-2.3-2.2-3.7-3-2.4-1.4-4.4-2.2-4.7-2-.2.4 1 3.7 1.6 4.3.9 1 6.5 3.8 7 3.6l.8-.1zm-2-8.7a3 3 0 0 0-1.5-.5c-.9 0-.9 0-.2.5.3.3 1 .5 1.6.5.8 0 .8 0 .2-.5zm-7-5.5c0-1.3-.1-1.5-.7-1.6-.9-.1-3.2 1.8-2.9 2.3.3.5 2.3 1 3 1 .4 0 .6-.5.6-1.7zm-7.5-2.3c.9-.8.8-1.2-.4-1.2-1 0-2.6 1-2.3 1.5.3.5 2 .3 2.7-.3zm8.6-5.5c1.1-.8 1.7-1.6 1.4-2-.3-.2-3.7 1.5-3.7 1.9 0 1.1.8 1.2 2.3.1zm-5.5-.7c.8-1.5.2-1.8-2.8-1.3-2 .4-2.5.6-2.4 1 .1.8 1.7 1.5 3.2 1.4 1.1-.1 1.5-.3 2-1zm-6.9-4c0-1-1-.9-1.2.1 0 .7 0 .8.6.8.3-.1.6-.5.6-.9zm5.6-2.3c1.1-.5 1.2-1 .1-2-.8-.7-3.6-1.8-4-1.4-.2.3 1.5 3 2.3 3.4.7.5.6.5 1.6 0zm-240 140.4c-.7-.8-.4-1.4.7-1.4 1.3 0 1.7.7.9 1.3-.8.6-1 .6-1.5 0zm282 0c-.8-.8-.5-1.4.5-1.4 1.3 0 1.8.7 1 1.3-.9.6-1 .6-1.6 0zm-286.2-4.1c0-1-.5-2.3-1.5-4.1-.7-1.5-1.4-3-1.4-3.4l-.8-3-1.3-4.6c-.3-1.6-.7-2.3-1.5-3-.8-.7-1-1-.6-1s1.7-.6 3-1.3c1.4-.6 2.7-1.2 3-1.2 1.4 0 5.5 1.8 6.2 2.7l.8 1 3.4-1c3.1-1 4.7-1 4.2-.2 0 .2-.5.3-.8.3-1 0-3 2.5-4.1 5.1a7.5 7.5 0 0 0-.8 2.5l1.6.4c1 .2 1.6.5 2 1 .8 1.2.5 1.5-1.6 1.7-1.6.2-2 .2-2.8-.4-1.3-1-1.4-1-1.4.3 0 .5-.2 1.1-.4 1.2-.8.6-.3 1.3 1 1.3 1 0 1.5.3 2.9 1.6 1.5 1.5 1.6 1.6 1 2.1a3 3 0 0 1-1.6.5c-1.8 0-5.8 1.2-6.8 2-1.4 1.1-1.7 1-1.7-.5zm3.1-11.9c0-.6-.5-1.2-1-1.2-.7 0-1 .7-.5 1.1.3.3 1.5.4 1.5.1zm278.7 11.9c0-1-.5-2.3-1.4-4.1-.8-1.5-1.4-3-1.4-3.4a46.4 46.4 0 0 1-2.1-7.7c-.3-1.5-.7-2.2-1.6-3-.7-.6-.9-1-.5-1 .3 0 1.7-.5 3-1.2 1.3-.6 2.7-1.2 3-1.2 1.3 0 5.5 1.8 6.2 2.7l.8 1 3.3-1c3.2-1 4.8-1 4.3-.2-.1.2-.5.3-.9.3-1 0-3 2.5-4 5.1a7.5 7.5 0 0 0-.8 2.5l1.6.4c1 .2 1.6.5 2 1 .7 1.2.5 1.5-1.7 1.7-1.5.2-2 .2-2.8-.4-1.2-1-1.3-1-1.3.3 0 .5-.2 1.1-.4 1.2-.8.6-.3 1.3 1 1.3 1 0 1.5.3 2.8 1.6 1.6 1.5 1.6 1.6 1 2.1a3 3 0 0 1-1.5.5c-1.9 0-5.8 1.2-6.8 2-1.4 1.1-1.8 1-1.8-.5zm3.2-11.9c0-.6-.5-1.2-1.1-1.2-.6 0-1 .7-.4 1.1.2.3 1.5.4 1.5.1zM270.9 144l.4-.8c.3-.6 1.5-.2 1.3.4-.2.5-1.7.9-1.7.4zm282 0c0-.2 0-.5.2-.8.4-.6 1.6-.2 1.4.4-.2.5-1.7.9-1.7.4zm-294-12.1c-1.6-.1-3.3-.4-3.8-.7-.5-.3-2-.4-4.4-.3l-3.6.1-2-4.7c-1.1-2.6-2-4.8-1.9-4.9.4-.4 2 .3 3.4 1.5 1.7 1.4 2.2 1.5 5.9.5a10 10 0 0 0 4.6-2.3c2-1.8 2.2-2.4 1-3.5-.3-.5-.6-1-.5-1.3.3-.8 4.6-3 5.3-2.7.6.3 2 2.7 2 3.4 0 .2-.6.7-1.4 1.2a6 6 0 0 0-2.3 2.6c-.6 1-1 2-.8 2 .1.2.6.1 1.2-.1.9-.5 1-.4 2.1.8.7.7 1.2 1.5 1.2 1.7 0 .1-1.2.8-2.7 1.3-2.7 1-2.9 1-5.5.7a10 10 0 0 0-3-.1c-.3.4.8 1.3 2.4 2 .9.4 2 1 2.3 1.4.6.6 1 .6 2.3.3 1.8-.4 2.5-.2 2.3.5-.3.8-.7.8-4 .6zm282 0c-1.7-.1-3.5-.4-3.9-.7-.6-.3-2-.4-4.4-.3l-3.6.1-2-4.7c-1.2-2.6-2-4.8-2-4.9.5-.4 2 .3 3.5 1.5 1.7 1.4 2.2 1.5 5.9.5a10 10 0 0 0 4.6-2.3c2-1.8 2.2-2.4 1-3.5-.4-.5-.6-1-.5-1.3.3-.8 4.6-3 5.3-2.7.5.3 2 2.7 2 3.4 0 .2-.6.7-1.4 1.2a6 6 0 0 0-2.4 2.6c-.5 1-.8 2-.7 2 0 .2.6.1 1.1-.1 1-.5 1-.4 2.2.8.7.7 1.2 1.5 1.2 1.7 0 .1-1.2.8-2.7 1.3-2.7 1-2.9 1-5.5.7a10 10 0 0 0-3-.1c-.4.4.7 1.3 2.4 2 .9.4 1.9 1 2.3 1.4.6.6 1 .6 2.2.3 1.8-.4 2.6-.2 2.3.5-.2.8-.6.8-4 .6zm-274-2.5c-.4-.5 0-.8.7-.6.3.2.5.4.3.6-.3.5-.7.5-1 0zm281.8 0c-.3-.5 0-.8.8-.6.3.2.4.4.3.6-.3.5-.8.5-1 0zm-297.3-7.7c-.8-.8-.7-1.3.1-1.8.8-.4 2.1 0 2.1.8 0 .5-1 1.7-1.4 1.7-.1 0-.5-.3-.8-.7zm281.9 0c-.8-.8-.8-1.3.1-1.8.8-.4 2.1 0 2.1.8 0 .5-1 1.7-1.5 1.7l-.7-.7zm-329-1.1a3 3 0 0 0-1.4-.3c-.8 0-1-.9-.4-1.3s4.3-1.2 5.3-1.2a3 3 0 0 1 1.4.3c.7.4 0 1.3-1.8 2.2-1.5.7-2.3.8-3.1.3zm281.8 0a3 3 0 0 0-1.3-.3c-.8 0-1-.9-.4-1.3s4.2-1.2 5.3-1.2a3 3 0 0 1 1.3.3c.7.4 0 1.3-1.7 2.2-1.5.7-2.4.8-3.2.3zm-294.9-.8c-.9-1.1 1-1.1 2.6 0 .7.4.6.4-.7.4-.8 0-1.6-.2-1.9-.4zm281.9 0c-1-1.1 1-1.1 2.6 0 .6.4.6.4-.7.4-.9 0-1.7-.2-1.9-.4zm-256.6-.8a2 2 0 0 1-.6-1.2c0-1-.4-1.1-1.4-.5-1 .6-1 .6-1.8 0-1-1-.9-1.5.5-2.5 1.6-1.2 2.3-1.1 5.2.4 2.3 1.2 2.4 1.3 2.4 2.4 0 1.3 0 1.3-2.5 1.7-1 .2-1.4.1-1.8-.3zm281.8 0a2 2 0 0 1-.5-1.2c0-1-.4-1.1-1.5-.5-1 .6-1 .6-1.7 0-1-1-.9-1.5.5-2.5 1.5-1.2 2.3-1.1 5.2.4 2.2 1.2 2.4 1.3 2.4 2.4 0 1.3-.1 1.3-2.5 1.7-1 .2-1.5.1-1.9-.3zM242 117.3c-1.5-.4-2.7-1-2.7-1.2a44 44 0 0 1 12.7-5.8c4.3-1.2 7.4-1.6 7.6-.8.3.6-2 1.6-6 2.8-5 1.5-6.6 2.4-5.5 3 .6.5.4.9-1 1.8-1.7 1-1.5 1-5 .2zm281.9 0c-1.5-.4-2.7-1-2.7-1.2a44 44 0 0 1 12.7-5.8c4.3-1.2 7.4-1.6 7.6-.8.2.6-2 1.6-6.1 2.8-5 1.5-6.6 2.4-5.4 3 .6.5.4.9-1 1.8-1.7 1-1.6 1-5.1.2zM94.3 112c-1.7-.7-1.4-1.5.8-2.3 2-.7 2.2-.6 2.4.4.3 1.7-1.3 2.7-3.2 2zm8.2.2v-.6c.2-.3 1.2 0 1.2.5 0 .3-.8.4-1.2 0zm282 0c-.2-.2-.2-.4-.1-.6.2-.3 1.2 0 1.2.5 0 .3-.8.4-1.2 0zm-148-1.5c-1.5-.3-2.6-.7-2.6-1 0-.2.9-.7 2-1.2 1.8-.8 2-.8 4.5-.3 4 .7 4.3 1 1.9 2-2.3 1-3 1.1-5.9.5zm281.8 0c-1.4-.3-2.5-.7-2.5-1 0-.2.9-.7 2-1.2 1.8-.8 2-.8 4.4-.3 4 .7 4.4 1 2 2-2.3 1-3 1.1-5.9.5zm-291 0c0-.2-.9-.4-1.9-.6-1.4-.2-1.8-.4-2.2-1.1-.3-.7-.3-1 .1-1.2.5-.4 5-.2 6.1.2.7.3.8 1.3.2 2.3-.3.7-1.9 1-2.2.4zm282 0c-.1-.2-1-.4-2-.6-1.5-.2-1.9-.4-2.2-1.1-.3-.7-.3-1 .1-1.2.5-.4 5-.2 6.1.2.7.3.8 1.3.2 2.3-.4.7-1.9 1-2.2.4zM237 104.5c-.5-.5-.7-1-.6-1.3.3-.4 5.8-.5 6.6 0 .4.3.4.4-.2.9-.8.5-3.2 1.2-4.3 1.2-.4 0-1-.4-1.5-.8zm281.9 0c-.5-.5-.7-1-.6-1.3.3-.4 5.8-.5 6.5 0 .5.3.5.4-.1.9-.8.5-3.2 1.2-4.4 1.2-.3 0-1-.4-1.4-.8zm-268.8-2c-5-1-5.5-1.2-7.6-2.6a14 14 0 0 0-3.4-1.8c-.6-.1-1-.3-1-.5l1.4-1.4c1.5-1.1 1.5-1.1 5.2-1 3.6 0 3.7.1 3.8 1 .1.4-.2 1-.6 1.6-.5.5-.7 1-.5 1.1.2.2 2.3 1 4.7 1.8 2.5.8 4.8 1.8 5.3 2.2l1 .7H257l-6.8-1.1zm281.9 0c-5-1-5.6-1.2-7.7-2.6a14 14 0 0 0-3.3-1.8c-.6-.1-1.1-.3-1.1-.5l1.5-1.4c1.5-1.1 1.5-1.1 5.2-1 3.6 0 3.7.1 3.8 1 0 .4-.2 1-.7 1.6-.4.5-.6 1-.4 1.1.1.2 2.3 1 4.7 1.8 2.4.8 4.8 1.8 5.3 2.2l.9.7h-1.4l-6.8-1.1zm83.7-3.9c-.1-.2 0-.3.1-.3.2 0 .4.1.4.3 0 .2 0 .4-.2.4l-.3-.4zM235.3 98c0-.2.2-.3.4-.2l.3.4-.3.2c-.2 0-.4-.2-.4-.4zm281.9 0c0-.2.1-.3.3-.2l.4.4-.4.2c-.2 0-.3-.2-.3-.4zM257 97.7c-.4-.4-.2-1.2.4-1.2.2 0 .5.2.5.5 0 .6-.5 1-.9.7zm282 0c-.5-.4-.3-1.2.2-1.2.3 0 .5.2.5.5 0 .6-.5 1-.8.7zM212 4.3c-.7-.9-.2-1.5 1.7-2.1 2.7-1 3.5 0 1.5 1.7-1.2 1-2.5 1.2-3.2.4zm281.9 0c-.7-.9-.2-1.5 1.7-2.1 2.7-1 3.4 0 1.4 1.7-1.2 1-2.5 1.2-3.1.4z">
+				</path>
+			</symbol>
+			<symbol id="header-user" viewbox="0 0 480 480">
+				<path d="m240 0c-132.546875 0-240 107.453125-240 240s107.453125 240 240 240c7.230469 0 14.433594-.324219 21.601562-.96875 6.664063-.597656 13.269532-1.511719 19.824219-2.65625l2.519531-.445312c121.863282-22.742188 206.359376-134.550782 194.960938-257.996094-11.398438-123.445313-114.9375-217.8945315-238.90625-217.933594zm-19.28125 463.152344h-.566406c-6.222656-.550782-12.398438-1.382813-18.519532-2.449219-.351562-.0625-.703124-.101563-1.046874-.167969-5.984376-1.070312-11.90625-2.398437-17.769532-3.949218l-1.417968-.363282c-5.71875-1.550781-11.375-3.351562-16.949219-5.351562-.578125-.207032-1.160157-.390625-1.738281-.605469-5.464844-2.007813-10.832032-4.257813-16.117188-6.691406-.65625-.292969-1.3125-.574219-1.96875-.886719-5.183594-2.398438-10.265625-5.101562-15.25-7.945312-.703125-.398438-1.414062-.796876-2.117188-1.191407-4.90625-2.863281-9.699218-5.933593-14.402343-9.175781-.710938-.496094-1.429688-.976562-2.136719-1.472656-4.621094-3.277344-9.125-6.757813-13.511719-10.398438l-1.207031-1.054687v-67.449219c.058594-48.578125 39.421875-87.941406 88-88h112c48.578125.058594 87.941406 39.421875 88 88v67.457031l-1.0625.886719c-4.472656 3.734375-9.0625 7.265625-13.777344 10.601562-.625.4375-1.257812.855469-1.878906 1.285157-4.757812 3.304687-9.632812 6.414062-14.625 9.335937-.625.363282-1.265625.707032-1.886719 1.066406-5.058593 2.878907-10.203125 5.597657-15.449219 8.046876-.601562.28125-1.207031.542968-1.816406.800781-5.328125 2.457031-10.742187 4.71875-16.246094 6.742187-.546874.203125-1.097656.378906-1.601562.570313-5.601562 2.007812-11.28125 3.824219-17.03125 5.382812l-1.378906.34375c-5.871094 1.550781-11.796875 2.886719-17.789063 3.960938-.34375.0625-.6875.105469-1.03125.160156-6.128906 1.070313-12.3125 1.902344-18.539062 2.457031h-.566407c-6.398437.550782-12.800781.847656-19.28125.847656-6.480468 0-12.933593-.242187-19.320312-.792968zm179.28125-66.527344v-52.625c-.066406-57.410156-46.589844-103.933594-104-104h-112c-57.410156.066406-103.933594 46.589844-104 104v52.617188c-86.164062-87.941407-85.203125-228.9375 2.148438-315.699219 87.351562-86.757813 228.351562-86.757813 315.703124 0 87.351563 86.761719 88.3125 227.757812 2.148438 315.699219zm0 0">
+				</path>
+				<path d="m240 64c-44.183594 0-80 35.816406-80 80s35.816406 80 80 80 80-35.816406 80-80c-.046875-44.164062-35.835938-79.953125-80-80zm0 144c-35.347656 0-64-28.652344-64-64s28.652344-64 64-64 64 28.652344 64 64c-.039062 35.328125-28.671875 63.960938-64 64zm0 0">
+				</path>
+			</symbol>
+		</svg>
+	</div>
+
+	<!-- Item Sprite -->
+	<div class="d-none">
+		<svg width="0" height="0" class="hidden">
+			<symbol xmlns="http://www.w3.org/2000/svg" version="1" viewBox="0 0 53 53" id="search">
+				<path d="M52 51L37 36A21 21 0 0 0 22 0a21 21 0 1 0 13 37l15 16a1 1 0 0 0 2 0v-2zM22 40a19 19 0 1 1 0-38 19 19 0 0 1 0 38z">
+				</path>
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" id="star">
+				<path fill="#efce4a" d="M27 1l8 17 19 3-14 13 4 19-17-9-17 9 3-19L0 21l19-3z"></path>
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" id="star-empty">
+				<path fill="none" stroke="#efce4a" stroke-width="5" d="M27 1l8 17 19 3-14 13 4 19-17-9-17 9 3-19L0 21l19-3z">
+				</path>
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.9 65.2" id="down-arrow">
+				<path d="M120.7 1.3a4.3 4.3 0 0 0-6.1 0L61 54.9 7.4 1.3a4.3 4.3 0 0 0-6.1 6L57.9 64c.8.8 1.9 1.2 3 1.2 1 0 2.2-.4 3-1.2l56.7-56.6a4.2 4.2 0 0 0 0-6.1z">
+				</path>
+			</symbol>
+			<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.9 65.2" id="up-arrow">
+				<path d="M120.7 64a4.3 4.3 0 0 1-6.1 0L61 10.3 7.4 64a4.3 4.3 0 0 1-6.1-6.1L57.9 1.3c.8-.9 1.9-1.3 3-1.3 1 0 2.2.4 3 1.3l56.7 56.6a4.2 4.2 0 0 1 0 6z">
+				</path>
+			</symbol>
+		</svg>
+	</div>
+
+
+
+	<div class="top-sale-line">
+		<div class="container">
+			Новый бонус для наших посетителей! Переходите по <a href="#">ссылке</a> чтобы узнать подробности.
+			<span class="top-sale-line__close">x</span>
+		</div>
+	</div>
+
+	<!-- Top line navigation and Signup/Signin -->
+	<div class="top-line">
+		<div class="container d-flex justify-content-between align-items-center">
+			<!-- Nagiation in top line -->
+			<nav class="top-line__menu top-menu" id="top-menu-js" role="navigation">
+				<!-- Background Element -->
+				<div class="bg-close" id="bg-close"></div>
+				<!-- Button -->
+				<button class="top-menu__toggle toggle-top-menu" id="toggle-top-menu">
+					<div class="plate plate1" id="toggle-top-menu__plate">
+						<svg class="burger" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+							<path class="line line1" d="M 30,65 H 70"></path>
+							<path class="line line2" d="M 70,50 H 30 C 30,50 18.644068,50.320751 18.644068,36.016949 C 18.644068,21.712696 24.988973,6.5812347 38.79661,11.016949 C 52.604247,15.452663 46.423729,62.711864 46.423729,62.711864 L 50.423729,49.152542 L 50.423729,16.101695">
+							</path>
+							<path class="line line3" d="M 30,35 H 70 C 70,35 80.084746,36.737688 80.084746,25.423729 C 80.084746,19.599612 75.882239,9.3123528 64.711864,13.559322 C 53.541489,17.806291 54.423729,62.711864 54.423729,62.711864 L 50.423729,49.152542 V 16.101695">
+							</path>
+						</svg>
+						<svg class="x" version="1.1" height="100" width="100" viewBox="0 0 100 100">
+							<path class="line" d="M 34,32 L 66,68"></path>
+							<path class="line" d="M 66,32 L 34,68"></path>
+						</svg>
+					</div>
+				</button>
+				<!-- List Items -->
+				<ul class="top-menu__ul d-md-flex justify-content-md-between">
+					<li class="top-menu__li top-menu__li_active"><a href="#">Главная</a></li>
+					<li class="top-menu__li"><a href="#">Товары</a></li>
+					<li class="top-menu__li"><a href="#">О компании</a></li>
+					<li class="top-menu__li"><a href="#">Доставка и оплата</a></li>
+					<li class="top-menu__li"><a href="#">Гарантии и возврат</a></li>
+					<li class="top-menu__li"><a href="#">Связаться с нами</a></li>
+				</ul>
+			</nav>
+
+			<!-- Signin/SignUp -->
+			<div class="top-line__sign sign-form">
+				<div class="sign-form__heading">
+					<svg class="sign-form__icon">
+						<use href="#header-user"></use>
+					</svg>
+					<p class="sign-form__title noselect">Мой аккаунт</p>
+				</div>
+				<div class="sign-form__body">
+					<h2 class="sign-form__head">Авторизация</h2>
+					<div class="sign-form__delim-head">
+						<span class="sign-form__delim-span">Аккаунт TarazHandmade</span>
+					</div>
+					<form method="POST" class="sign-form__form form-auth">
+						<div class="form-auth__input-group">
+							<label for="username">Логин или почта</label>
+							<input type="text" autocomplete="off" id="username" placeholder="Введите ваш логин или почту">
+						</div>
+						<div class="form-auth__input-group">
+							<label for="password">Пароль</label>
+							<input type="password" id="password" placeholder="Введите ваш пароль">
+						</div>
+						<div class="form-auth__password-wrap clearfix">
+							<div class="checkbox-wrap form-auth__checkbox-wrap">
+								<label class="checkbox-wrap__label">
+									<input type="checkbox" class="checkbox-wrap__input">
+									<span class="checkbox-wrap__check-box"></span>
+									<span class="checkbox-wrap__span noselect">Запомнить</span>
+								</label>
+							</div>
+							<div class="form-auth__remember-wrap">
+								<a href="#" class="form-auth__remember">Забыли пароль?</a>
+							</div>
+						</div>
+						<input type="submit" value="Вход" class="form-auth__submit">
+					</form>
+					<div class="sign-form__delim-head">
+						<span class="sign-form__delim-span">Через соц. сети</span>
+					</div>
+					<div class="sign-form__social-auth">
+						<img src="images/social.jpg" alt="">
+					</div>
+					<div class="sign-form__delim-head"></div>
+					<p class="sign-form__register-offer">Ещё не зарегистрированы? <a href="#" class="sign-form__register-link">Регистрация</a></p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Top logo line -->
+	<div class="logo-line">
+		<div class="container d-flex justify-content-between align-items-center">
+			<div class="logo-line__favorites">
+				<div class="top-icon-wrap d-flex justify-content-between align-items-center">
+					<div class="top-icon-wrap__icon">
+						<a href="#popup-favorites" data-effect="mfp-zoom-out">
+							<svg>
+								<use href="#header-heart"></use>
+							</svg>
+						</a>
+						<div class="top-icon-wrap__count">12</div>
+					</div>
+					<div class="top-icon-wrap__info-wrap">
+						<a href="#popup-favorites" class="open-popup-top" data-effect="mfp-zoom-out">
+							<h3>Избранные</h3>
+						</a>
+						<a href="#">Перейти в избранные</a>
+					</div>
+				</div>
+			</div>
+			<div class="logo-line__logo">
+				<a href="/">
+					<svg>
+						<use href="#header-logo"></use>
+					</svg>
+				</a>
+			</div>
+			<div class="logo-line__cart d-flex justify-content-between align-items-center">
+				<div class="top-icon-wrap__info-wrap top-icon-wrap__info-wrap_right">
+					<a href="#popup-cart" data-effect="mfp-zoom-out" class="open-popup-top">
+						<h3>Корзина</h3>
+					</a>
+					<a href="#">Перейти в корзину</a>
+				</div>
+				<div class="top-icon-wrap__icon">
+					<a href="#popup-cart" data-effect="mfp-zoom-out">
+						<svg>
+							<use href="#header-basket"></use>
+						</svg>
+					</a>
+					<div class="top-icon-wrap__count">0</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Categories line -->
+	<div class="top-categories">
+		<div class="container">
+			<button class="top-categories__toggle d-flex justify-content-start align-items-center">
+				<div class="hamburger" id="hamburger-9">
+					<span class="line"></span>
+					<span class="line"></span>
+					<span class="line"></span>
+				</div>
+				<span class="top-categories__toggle-span">Категории</span>
+			</button>
+			<ul class="top-categories__ul justify-content-md-center justify-content-lg-start">
+				<li class="top-categories__li top-categories__li_active">
+					<a href="#">Большие кошельки</a>
+				</li>
+				<li class="top-categories__li">
+					<a href="#">Маленькие кошельки</a>
+				</li>
+				<li class="top-categories__li">
+					<a href="#">Сумки</a>
+				</li>
+				<li class="top-categories__li">
+					<a href="#">Аксессуары</a>
+				</li>
+				<li class="top-categories__li">
+					<a href="#">Вместе дешевле</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Breadcrums -->
+	<div class="container">
+		<div class="breadcrumbs d-flex align-items-center">
+			<svg class="breadcrumbs__home">
+				<use xlink:href="#header-home"></use>
+			</svg>
+			<a href="/">Главная</a>
+		</div>
+	</div>
+
+
+	<!-- Big Items -->
+	<div class="container">
+		<div class="big-items">
+			<div class="big-items__item">
+				<a href="#">
+					<p class="big-items__tags">Метки: ручная работа, коженные кошельки, карпет</p>
+					<h3 class="big-items__heading">Большие кошельки TARAZ</h3>
+				</a>
+			</div>
+			<div class="big-items__item">
+				<a href="#">
+					<p class="big-items__tags">Метки: ручная работа, коженные кошельки, карпет</p>
+					<h3 class="big-items__heading">Маленькие кошельки TARAZ</h3>
+				</a>
+			</div>
+			<div class="big-items__item">
+				<a href="#">
+					<p class="big-items__tags">Метки: ручная работа, коженные кошельки, карпет</p>
+					<h3 class="big-items__heading">Сумки и аксессуары TARAZ</h3>
+				</a>
+			</div>
+		</div>
+		<div class="large-item">
+			<a href="#">
+				<p class="large-item__tags">Метки: ручная работа, коженные кошельки, карпет, аксессуары, сумки</p>
+				<h3 class="large-item__heading">Все товары от TARAZ</h3>
+			</a>
+		</div>
+	</div>
+
+
+	<!-- Recomended -->
+	<section class="section section_light recomended">
+		<div class="container">
+			<div class="recomended__logo">
+				<svg>
+					<use href="#header-logo"></use>
+				</svg>
+			</div>
+			<div class="sec-heading">
+				<span class="sec-heading__span">Рекомендует</span>
+			</div>
+			<div class="section__wrap">
+				<div class="slide-items">
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/1/1.webp,
+														images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+														images/items/1/1.jpg,
+														images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/2/2.webp,
+														images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+														images/items/2/2.jpg,
+														images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+															images/items/3/3.webp,
+															images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+															images/items/3/3.jpg,
+															images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																images/items/4/4.webp,
+																images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																images/items/4/4.jpg,
+																images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+													images/items/1/1.webp,
+													images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+													images/items/1/1.jpg,
+													images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+													images/items/2/2.webp,
+													images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+													images/items/2/2.jpg,
+													images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/3/3.webp,
+														images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+														images/items/3/3.jpg,
+														images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+															images/items/4/4.webp,
+															images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+															images/items/4/4.jpg,
+															images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+													images/items/1/1.webp,
+													images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+													images/items/1/1.jpg,
+													images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+													images/items/2/2.webp,
+													images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+													images/items/2/2.jpg,
+													images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/3/3.webp,
+														images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+														images/items/3/3.jpg,
+														images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+															images/items/4/4.webp,
+															images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+															images/items/4/4.jpg,
+															images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Together -->
+	<section class="section section_dark together">
+		<div class="container">
+			<div class="sec-heading">
+				<span class="sec-heading__span">ВМЕСТЕ ДЕШЕВЛЕ</span>
+			</div>
+			<div class="section__wrap">
+				<div class="slide-items">
+					<div class="together__item">
+						<div class="section__wrap-bg" style="background-image: url(images/together/bg.jpg);"></div>
+						<div class="together__items-wrap">
+							<div class="item-cart">
+								<div class="item-cart__img-wrap">
+									<a href="#">
+										<picture>
+											<source srcset="
+																	images/items/1/1.webp,
+																	images/items/1/1@2x.webp 2x" type="image/webp">
+											<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																	images/items/1/1.jpg,
+																	images/items/1/1@2x.jpg 2x" alt="Item image">
+										</picture>
+									</a>
+									<a href="#quickview">
+										<div class="quick-button item-cart__quick">
+											<svg>
+												<use href="#search"></use>
+											</svg>
+											<span>Быстрый просмотр</span>
+										</div>
+									</a>
+								</div>
+								<div class="item-cart__body">
+									<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+									<div class="item-cart__rating">
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star-empty"></use>
+										</svg>
+										<span class="item-cart__count">(1258 отзывов)</span>
+									</div>
+									<div class="item-cart__price">
+										<span class="item-cart__price-color">7850</span> рублей
+									</div>
+								</div>
+							</div>
+							<div class="item-cart">
+								<div class="item-cart__img-wrap">
+									<a href="#">
+										<picture>
+											<source srcset="
+																	images/items/2/2.webp,
+																	images/items/2/2@2x.webp 2x" type="image/webp">
+											<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																	images/items/2/2.jpg,
+																	images/items/2/2@2x.jpg 2x" alt="Item image">
+										</picture>
+									</a>
+									<a href="#quickview">
+										<div class="quick-button item-cart__quick">
+											<svg>
+												<use href="#search"></use>
+											</svg>
+											<span>Быстрый просмотр</span>
+										</div>
+									</a>
+								</div>
+								<div class="item-cart__body">
+									<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+											красно-бело-синие цвета</a></h3>
+									<div class="item-cart__rating">
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<span class="item-cart__count">(121 отзывов)</span>
+									</div>
+									<div class="item-cart__price">
+										<span class="item-cart__price-color">6520</span> рублей
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="together__price">
+							10000 рублей
+							<span class="together__price-sale">Вместо 12560</span>
+						</div>
+						<a href="#" class="together__btn">Подробнее...</a>
+					</div>
+					<div class="together__item">
+						<div class="section__wrap-bg" style="background-image: url(images/together/bg.jpg);"></div>
+						<div class="together__items-wrap">
+							<div class="item-cart">
+								<div class="item-cart__img-wrap">
+									<a href="#">
+										<picture>
+											<source srcset="
+																	images/items/1/1.webp,
+																	images/items/1/1@2x.webp 2x" type="image/webp">
+											<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																	images/items/1/1.jpg,
+																	images/items/1/1@2x.jpg 2x" alt="Item image">
+										</picture>
+									</a>
+									<a href="#quickview">
+										<div class="quick-button item-cart__quick">
+											<svg>
+												<use href="#search"></use>
+											</svg>
+											<span>Быстрый просмотр</span>
+										</div>
+									</a>
+								</div>
+								<div class="item-cart__body">
+									<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+									<div class="item-cart__rating">
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star-empty"></use>
+										</svg>
+										<span class="item-cart__count">(1258 отзывов)</span>
+									</div>
+									<div class="item-cart__price">
+										<span class="item-cart__price-color">7850</span> рублей
+									</div>
+								</div>
+							</div>
+							<div class="item-cart">
+								<div class="item-cart__img-wrap">
+									<a href="#">
+										<picture>
+											<source srcset="
+																	images/items/2/2.webp,
+																	images/items/2/2@2x.webp 2x" type="image/webp">
+											<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																	images/items/2/2.jpg,
+																	images/items/2/2@2x.jpg 2x" alt="Item image">
+										</picture>
+									</a>
+									<a href="#quickview">
+										<div class="quick-button item-cart__quick">
+											<svg>
+												<use href="#search"></use>
+											</svg>
+											<span>Быстрый просмотр</span>
+										</div>
+									</a>
+								</div>
+								<div class="item-cart__body">
+									<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+											красно-бело-синие цвета</a></h3>
+									<div class="item-cart__rating">
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<svg class="item-cart__rate">
+											<use href="#star"></use>
+										</svg>
+										<span class="item-cart__count">(121 отзывов)</span>
+									</div>
+									<div class="item-cart__price">
+										<span class="item-cart__price-color">6520</span> рублей
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="together__price">
+							10000 рублей
+							<span class="together__price-sale">Вместо 12560</span>
+						</div>
+						<a href="#" class="together__btn">Подробнее...</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Already Seen -->
+	<section class="section section_light already-seen">
+		<div class="container">
+			<div class="sec-heading">
+				<span class="sec-heading__span">Просмотренные товары</span>
+			</div>
+			<div class="section__wrap">
+				<div class="slide-items">
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+															images/items/1/1.webp,
+															images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+															images/items/1/1.jpg,
+															images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+															images/items/2/2.webp,
+															images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+															images/items/2/2.jpg,
+															images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																images/items/3/3.webp,
+																images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+																images/items/3/3.jpg,
+																images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/4/4.webp,
+																	images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																	images/items/4/4.jpg,
+																	images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/1/1.webp,
+														images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+														images/items/1/1.jpg,
+														images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/2/2.webp,
+														images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+														images/items/2/2.jpg,
+														images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+															images/items/3/3.webp,
+															images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+															images/items/3/3.jpg,
+															images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																images/items/4/4.webp,
+																images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																images/items/4/4.jpg,
+																images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/1/1.webp,
+														images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+														images/items/1/1.jpg,
+														images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+														images/items/2/2.webp,
+														images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+														images/items/2/2.jpg,
+														images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+															images/items/3/3.webp,
+															images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+															images/items/3/3.jpg,
+															images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																images/items/4/4.webp,
+																images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																images/items/4/4.jpg,
+																images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sales -->
+	<section class="section section_dark sales">
+		<div class="container">
+			<div class="sec-heading">
+				<span class="sec-heading__span">Скидки на TARAZ</span>
+			</div>
+			<div class="section__wrap">
+				<div class="slide-items">
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/1/1.webp,
+																		images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																		images/items/1/1.jpg,
+																		images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/2/2.webp,
+																		images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																		images/items/2/2.jpg,
+																		images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																			images/items/3/3.webp,
+																			images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+																			images/items/3/3.jpg,
+																			images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																				images/items/4/4.webp,
+																				images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																				images/items/4/4.jpg,
+																				images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/1/1.webp,
+																	images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																	images/items/1/1.jpg,
+																	images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/2/2.webp,
+																	images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																	images/items/2/2.jpg,
+																	images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/3/3.webp,
+																		images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+																		images/items/3/3.jpg,
+																		images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																			images/items/4/4.webp,
+																			images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																			images/items/4/4.jpg,
+																			images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/1/1.webp,
+																	images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																	images/items/1/1.jpg,
+																	images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/2/2.webp,
+																	images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																	images/items/2/2.jpg,
+																	images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/3/3.webp,
+																		images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+																		images/items/3/3.jpg,
+																		images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																			images/items/4/4.webp,
+																			images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																			images/items/4/4.jpg,
+																			images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- How To -->
+	<section class="section how-to">
+		<div class="container">
+
+			<div class="sec-heading">
+				<span class="sec-heading__span">Как происходит процесс оплаты и получения?</span>
+			</div>
+
+			<div class="how-to__trg-wrap">
+				<div class="how-to__triangle ht-trg">
+					<!-- First -->
+					<svg xmlns="http://www.w3.org/2000/svg" id="ht-trg-1" viewBox="0 0 291.01178 129">
+						<path fill="#ff553e" stroke="#171717" stroke-width="5" d="M3.5 126.3L3 4h240.7L287 62.8l-43.3 63.5z"></path>
+					</svg>
+					<span class="ht-trg__count">1</span>
+					<span class="ht-trg__description"><span>Выберите товар</span></span>
+				</div>
+				<div class="how-to__triangle ht-trg">
+					<!-- Triangle -->
+					<svg xmlns="http://www.w3.org/2000/svg" id="ht-trg-2" viewBox="0 0 291.01178 129">
+						<path fill="#ff553e" stroke="#171717" stroke-width="5" d="M3.4 126l43-63L3 3.8h240.7L287 62.6 243.6 126z"></path>
+					</svg>
+					<span class="ht-trg__count">2</span>
+					<span class="ht-trg__description"><span>Оформляете заявку</span></span>
+				</div>
+				<div class="how-to__triangle ht-trg">
+						<!-- Triangle -->
+						<svg xmlns="http://www.w3.org/2000/svg" id="ht-trg-3" viewBox="0 0 291.01178 129">
+							<path fill="#ff553e" stroke="#171717" stroke-width="5" d="M3.4 126l43-63L3 3.8h240.7L287 62.6 243.6 126z"></path>
+						</svg>
+						<span class="ht-trg__count">3</span>
+					<span class="ht-trg__description"><span>Производите оплату</span></span>
+				</div>
+				<div class="how-to__triangle ht-trg">
+					<!-- Triangle -->
+					<svg xmlns="http://www.w3.org/2000/svg" id="ht-trg-4" viewBox="0 0 291.01178 129">
+						<path fill="#ff553e" stroke="#171717" stroke-width="5" d="M3.4 126l43-63L3 3.8h240.7L287 62.6 243.6 126z"></path>
+					</svg>
+					<span class="ht-trg__count">4</span>
+					<span class="ht-trg__description"><span>Ждите доставку<br>товара курьером</span></span>
+				</div>
+			</div>
+
+			<div class="sec-heading">
+				<span class="sec-heading__span">Почему выбрать нас?</span>
+			</div>
+
+			<div class="how-to__avg-wrap">
+				<div class="avg-item how-to__avg animated">
+					<div class="avg-item__count">1</div>
+					<div class="avg-item__info-wrap">
+						<h3 class="avg-item__heading">Ручная работа</h3>
+						<p class="avg-item__description">
+							Все наши изделия приготовлены очень качественно и надёжно. Бумажники не проходят через станки и прочее, только ручная работа.
+						</p>
+					</div>
+				</div>
+				<div class="avg-item how-to__avg animated">
+					<div class="avg-item__count">2</div>
+					<div class="avg-item__info-wrap">
+						<h3 class="avg-item__heading">Качественная работа</h3>
+						<p class="avg-item__description">
+								Наши товары делаются тщательно и у нас есть 100 процентная гарантия на высокое качество товара и полное соответствие цены к качеству.
+						</p>
+					</div>
+				</div>
+				<div class="avg-item how-to__avg animated">
+					<div class="avg-item__count">3</div>
+					<div class="avg-item__info-wrap">
+						<h3 class="avg-item__heading">Бесплатная доставка</h3>
+						<p class="avg-item__description">
+								Доставка в Америку, в Россию и в Армению абсолютно бесплатна. От вас требуется только оформить простую заявку и произвести оплату. Остальное мы устроим сами в течении 15 дней.
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Bestseller -->
+	<section class="section section_dark bestseller">
+		<div class="container">
+			<div class="sec-heading">
+				<span class="sec-heading__span">Хиты продаж</span>
+			</div>
+			<div class="section__wrap">
+				<div class="slide-items">
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/1/1.webp,
+																		images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																		images/items/1/1.jpg,
+																		images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/2/2.webp,
+																		images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																		images/items/2/2.jpg,
+																		images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																			images/items/3/3.webp,
+																			images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+																			images/items/3/3.jpg,
+																			images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																				images/items/4/4.webp,
+																				images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																				images/items/4/4.jpg,
+																				images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/1/1.webp,
+																	images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																	images/items/1/1.jpg,
+																	images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/2/2.webp,
+																	images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																	images/items/2/2.jpg,
+																	images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/3/3.webp,
+																		images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+																		images/items/3/3.jpg,
+																		images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																			images/items/4/4.webp,
+																			images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																			images/items/4/4.jpg,
+																			images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="slide-vertical">
+
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/1/1.webp,
+																	images/items/1/1@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/1/1.jpg" srcset="
+																	images/items/1/1.jpg,
+																	images/items/1/1@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Make-up сумочка, коричневого оранжегого цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(1258 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">7850</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																	images/items/2/2.webp,
+																	images/items/2/2@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/2/2.jpg" srcset="
+																	images/items/2/2.jpg,
+																	images/items/2/2@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленькая пеналь для ручек,
+										красно-бело-синие цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(121 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">6520</span> рублей
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																		images/items/3/3.webp,
+																		images/items/3/3@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/3/3.jpg" srcset="
+																		images/items/3/3.jpg,
+																		images/items/3/3@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Маленький кошелёк, с текстурой
+										граната, красно-белые цвета</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<span class="item-cart__count">(0 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">10500</span> рублей
+									<span class="item-cart__sale">
+										<s>12150 рублей</s>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="item-cart">
+							<div class="item-cart__img-wrap">
+								<a href="#">
+									<picture>
+										<source srcset="
+																			images/items/4/4.webp,
+																			images/items/4/4@2x.webp 2x" type="image/webp">
+										<img class="img-responsive" src="images/items/4/4.jpg" srcset="
+																			images/items/4/4.jpg,
+																			images/items/4/4@2x.jpg 2x" alt="Item image">
+									</picture>
+								</a>
+								<a href="#quickview">
+									<div class="quick-button item-cart__quick">
+										<svg>
+											<use href="#search"></use>
+										</svg>
+										<span>Быстрый просмотр</span>
+									</div>
+								</a>
+							</div>
+							<div class="item-cart__body">
+								<h3 class="item-cart__heading"><a href="#">Большой кошелёк в красных оттенках, текстуры нет</a></h3>
+								<div class="item-cart__rating">
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<svg class="item-cart__rate">
+										<use href="#star-empty"></use>
+									</svg>
+									<span class="item-cart__count">(958 отзывов)</span>
+								</div>
+								<div class="item-cart__price">
+									<span class="item-cart__price-color">5200</span> рублей
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="section section_light seo-text">
+		<div class="container">
+			<div class="seo-text__text-wrap">
+				<h3>TARAZ - сделано с любовью!</h3>
+				<p>Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+				<p>Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, которые даже отдалённо не напоминают латынь. Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите какой-нибудь шутки, скрытой в середине абзаца. Также все другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют, пока не достигнут нужный объём. Это делает предлагаемый здесь генератор единственным настоящим Lorem Ipsum генератором. Он использует словарь из более чем 200 латинских слов, а также набор моделей предложений. В результате сгенерированный Lorem Ipsum выглядит правдоподобно, не имеет повторяющихся абзацей или "невозможных" слов.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-between align-items-center">
+				<div class="footer__copyright">
+					<a href="/"><svg class="footer__logo"><use href="#header-logo"></use></svg></a>
+					<p class="footer__copyright-text">Taraz Handmade © 2012 - 2019. Все права защищены.</p>
+				</div>
+				<div class="footer__contacts">
+					<h3 class="footer__contacts-heading">Мы в социальных сетях:</h3>
+					<div class="footer__contacts-social">
+							<a href="#" target="_blank">Фейсбук</a>
+							<a href="#" target="_blank">Инстаграм</a>
+							<a href="#">Связаться с нами</a>
+					</div>
+					<div class="footer__contacts-links">
+							<a href="#">Политика конфиденциальности</a>
+							<a href="mailto:support@tarazhandmade.com" rel="nofollow">По вопросам: support@tarazhandmade.com</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<div class="hidden">
+		<div class="popup-fav-cart mfp-with-anim mfp-hide" id="popup-favorites">
+			<div class="popup-fav-cart__wrapper">
+				<h3 class="popup-fav-cart__heading">Избранные товары</h3>
+				<p class="popup-fav-cart__count">Кол-во. товаров: 12</p>
+				<div class="pop-i-wrap">
+					<!-- EMPTY TEXT -->
+					<!-- <div class="popup-fav-cart__empty-heading">
+								Упс! Нет избранных товаров!<br>Перейдите в <a href="#">магазин</a> и выберите нужные товары.
+							</div> -->
+					<div class="pop-item">
+						<button class="pop-item__delete"><span>x</span> Удалить</button>
+						<div class="pop-item__img-wrap">
+							<a href="#">
+								<picture>
+									<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.webp" type="image/webp">
+									<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.webp" type="image/webp">
+									<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.jpg">
+									<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.jpg">
+									<img class="img-responsive" src="images/popup-fav-cart/1-fullwidth.jpg" alt="Item image">
+								</picture>
+							</a>
+						</div>
+						<div class="pop-item__info-wrap">
+							<h3 class="pop-item__heading"><a href="#"> Большой буажник - Красно-белый - 19x20x10</a></h3>
+							<p class="pop-item__info">
+								<span class="pop-item__add-date">Добавлено 19.11.2019</span>
+								<span class="pop-item__feedbacks">
+									<span class="pop-item__star"></span>
+									<span class="pop-item__star"></span>
+									<span class="pop-item__star pop-item__star_empty"></span>
+									<span class="pop-item__star pop-item__star_empty"></span>
+									<span class="pop-item__star pop-item__star_empty"></span>
+								</span>
+								<span class="feedbacks-count">(12 отзывов)</span>
+							</p>
+							<p class="pop-item__info pop-item__info_2">
+								<span class="pop-item__price-wrap">
+									Цена: <span class="pop-item__price">7500 рублей</span>
+								</span>
+							</p>
+						</div>
+					</div>
+					<div class="pop-item_together d-flex justify-content-around align-items-center">
+						<button class="pop-item__delete"><span>x</span> Удалить</button>
+						<span class="pop-item__sale">20%<span>акция</span></span>
+						<div class="pop-item">
+							<div class="pop-item__img-wrap">
+								<a href="#">
+									<picture>
+										<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.webp" type="image/webp">
+										<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.webp" type="image/webp">
+										<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.jpg">
+										<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.jpg">
+										<img class="img-responsive" src="images/popup-fav-cart/1-fullwidth.jpg" alt="Item image">
+									</picture>
+								</a>
+							</div>
+							<div class="pop-item__info-wrap">
+								<h3 class="pop-item__heading"><a href="#"> Большой буажник кожа + карпет - 19x20x10</a></h3>
+								<p class="pop-item__info">
+									<span class="pop-item__feedbacks">
+										<span class="pop-item__star"></span>
+										<span class="pop-item__star"></span>
+										<span class="pop-item__star"></span>
+										<span class="pop-item__star"></span>
+										<span class="pop-item__star"></span>
+									</span>
+									<span class="feedbacks-count">(12 отзывов)</span>
+								</p>
+								<p class="pop-item__info pop-item__info_2">
+									<span class="pop-item__price-wrap">
+										Цена: <span class="pop-item__price">7500 рублей</span>
+									</span>
+								</p>
+							</div>
+						</div>
+						<div class="pop-item">
+
+							<div class="pop-item__img-wrap">
+								<a href="#">
+									<picture>
+										<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.webp" type="image/webp">
+										<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.webp" type="image/webp">
+										<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.jpg">
+										<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.jpg">
+										<img class="img-responsive" src="images/popup-fav-cart/1-fullwidth.jpg" alt="Item image">
+									</picture>
+								</a>
+							</div>
+							<div class="pop-item__info-wrap">
+								<h3 class="pop-item__heading"><a href="#"> Большой буажник Текстура граната - 19x20x10</a></h3>
+								<p class="pop-item__info">
+									<span class="pop-item__feedbacks">
+										<span class="pop-item__star"></span>
+										<span class="pop-item__star"></span>
+										<span class="pop-item__star pop-item__star_empty"></span>
+										<span class="pop-item__star pop-item__star_empty"></span>
+										<span class="pop-item__star pop-item__star_empty"></span>
+									</span>
+									<span class="feedbacks-count">(0 отзывов)</span>
+								</p>
+								<p class="pop-item__info pop-item__info_2">
+									<span class="pop-item__price-wrap">
+										Цена: <span class="pop-item__price">7500 рублей</span>
+									</span>
+								</p>
+							</div>
+						</div>
+						<div class="pop-item__together-price">
+							Вместе дешевле: <b>10000 рублей</b> / <s>15000 рублей</s>
+						</div>
+					</div>
+					<div class="pop-item">
+						<button class="pop-item__delete"><span>x</span> Удалить</button>
+						<div class="pop-item__img-wrap">
+							<a href="#">
+								<picture>
+									<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.webp" type="image/webp">
+									<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.webp" type="image/webp">
+									<source media="(max-width: 500px)" srcset="images/popup-fav-cart/1-fullwidth.jpg">
+									<source media="(min-width: 500px)" srcset="images/popup-fav-cart/1.jpg">
+									<img class="img-responsive" src="images/popup-fav-cart/1-fullwidth.jpg" alt="Item image">
+								</picture>
+							</a>
+						</div>
+						<div class="pop-item__info-wrap">
+							<h3 class="pop-item__heading"><a href="#"> Большой буажник - Красно-белый - 19x20x10</a></h3>
+							<p class="pop-item__info">
+								<span class="pop-item__add-date">Добавлено 19.11.2019</span>
+								<span class="pop-item__feedbacks">
+									<span class="pop-item__star"></span>
+									<span class="pop-item__star"></span>
+									<span class="pop-item__star pop-item__star_empty"></span>
+									<span class="pop-item__star pop-item__star_empty"></span>
+									<span class="pop-item__star pop-item__star_empty"></span>
+								</span>
+								<span class="feedbacks-count">(12 отзывов)</span>
+							</p>
+							<p class="pop-item__info pop-item__info_2">
+								<span class="pop-item__price-wrap">
+									Цена: <span class="pop-item__price">7500 рублей</span>
+								</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="popup-fav-cart__see-all">Посмотреть все</a>
+			</div>
+		</div>
+		<div class="popup-fav-cart mfp-with-anim mfp-hide" id="popup-cart">
+			<div class="popup-fav-cart__wrapper">
+				<h3 class="popup-fav-cart__heading">Товары в корзине</h3>
+				<p class="popup-fav-cart__count">Кол-во. товаров: 0</p>
+				<div class="pop-i-wrap">
+					<!-- EMPTY TEXT -->
+					<div class="popup-fav-cart__empty-heading">
+						Упс! Нет товаров в корзине!<br>Перейдите в <a href="#">магазин</a> и выберите нужные товары.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/modernizr/modernizr.js"></script>
+	<script src="libs/drawsvg/drawfillsvg.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
