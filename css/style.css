@@ -2953,7 +2953,7 @@ a:hover {
 
 
 .together .slick-track{
-  width: 100%;
+  width: 100% !important;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -2967,5 +2967,5 @@ a:hover {
 }
 
 .together__item{
-  width: 100%;
+  width: 100% !important;
 }
