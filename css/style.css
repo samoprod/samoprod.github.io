@@ -2949,3 +2949,23 @@ a:hover {
     background-image: url(../images/big-items/3/3@2x.jpg);
   }
 }
+
+
+
+.together .slick-track{
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.together__item{
+  width: 100%;
+}
