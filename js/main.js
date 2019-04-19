@@ -129,31 +129,31 @@ $(function () {
 function checkPoint(generalSection, secondSection){
 
 			$('.' + generalSection + ' .slider-loader, .' + secondSection +  ' .slider-loader').stop().fadeOut();
-			$('.' + generalSection + ' .slide-vertical, .' + secondSection +  ' .slide-vertical').not('.slick-initialized').slick({
-				infinite: false,
-				mobileFirst: true,
-				arrows: false,
-				dots: true,
-				draggable: false,
-				responsive: [
-					{
-						breakpoint: 992,
-						settings: {
-							slidesToShow: 4,
-							infinite: false,
-							dots: false,
-						}
-					},
-					{
-						breakpoint: 768,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 1,
-							infinite: false
-						}
-					},
-				]
-			});
+			// $('.' + generalSection + ' .slide-vertical, .' + secondSection +  ' .slide-vertical').not('.slick-initialized').slick({
+			// 	infinite: false,
+			// 	mobileFirst: true,
+			// 	arrows: false,
+			// 	dots: true,
+			// 	draggable: false,
+			// 	responsive: [
+			// 		{
+			// 			breakpoint: 992,
+			// 			settings: {
+			// 				slidesToShow: 4,
+			// 				infinite: false,
+			// 				dots: false,
+			// 			}
+			// 		},
+			// 		{
+			// 			breakpoint: 768,
+			// 			settings: {
+			// 				slidesToShow: 2,
+			// 				slidesToScroll: 1,
+			// 				infinite: false
+			// 			}
+			// 		},
+			// 	]
+			// });
 			$('.' + generalSection + ' .slide-items, .' + secondSection +  ' .slide-items').not('.slick-initialized').slick({
 				verticalSwiping: true,
 				mobileFirst: true,
