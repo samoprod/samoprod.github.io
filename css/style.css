@@ -637,6 +637,7 @@ a:hover {
 }
 
 .toggle-top-menu .plate svg {
+  fill: #fff;
   height: 60px;
   position: absolute;
   width: 60px;
