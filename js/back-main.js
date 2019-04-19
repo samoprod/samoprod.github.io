@@ -85,16 +85,12 @@ $(function () {
 		]
 	});
 
-
-	
-		checkPoint("recomended", "together");
-		checkPoint("already-seen", "sales");
-		checkPoint("bestseller", "bestseller");
-
-
 	var drawed = false;
 
 	$(window).scroll(function() {
+		checkPoint("recomended", "together");
+		checkPoint("already-seen", "sales");
+		checkPoint("bestseller", "bestseller");
 
 		// How to drawfill animation
 
@@ -128,7 +124,11 @@ $(function () {
 
 
 function checkPoint(generalSection, secondSection){
-
+	var hT = $('.' + generalSection).offset().top,
+			wH = $(window).height(),
+			wS = $(this).scrollTop(),
+			res = hT - (wH / 1.5);
+		if (wS > res){
 			$('.' + generalSection + ' .slider-loader, .' + secondSection +  ' .slider-loader').stop().fadeOut();
 			$('.' + generalSection + ' .slide-vertical, .' + secondSection +  ' .slide-vertical').not('.slick-initialized').slick({
 				infinite: false,
@@ -165,6 +165,7 @@ function checkPoint(generalSection, secondSection){
 				prevArrow: "<button class='vert-arr vert-arr_prev'><svg><use href='#down-arrow'></use></svg></button>",
 				dots: true
 			});
+		}
 }
 
 
