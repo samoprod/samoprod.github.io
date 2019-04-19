@@ -1918,6 +1918,7 @@ a:hover {
 
 .section_light .section__wrap {
   background-color: #f5f5f5;
+  position: relative;
   margin-top: 10px;
 }
 
@@ -1945,6 +1946,7 @@ a:hover {
 
 .section_dark .section__wrap {
   background-color: #f5f5f5;
+  position: relative;
   margin-top: 20px;
 }
 
@@ -2917,6 +2919,10 @@ a:hover {
 
 .footer__contacts-links a:last-child:before {
   display: none;
+}
+
+.slider-loader .preloader {
+  top: 80px;
 }
 
 .big-items, .slide-items, .slide-vertical {

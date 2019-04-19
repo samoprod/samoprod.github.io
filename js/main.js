@@ -85,53 +85,22 @@ $(function () {
 		]
 	});
 
+	var drawed = false;
 
-	$('.slide-vertical').slick({
-		infinite: false,
-		mobileFirst: true,
-		arrows: false,
-		dots: true,
-		draggable: false,
-		responsive: [
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 4,
-					infinite: false,
-					dots: false,
-				}
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1,
-					infinite: false
-				}
-			},
-		]
-	});
+	$(window).scroll(function() {
+		checkPoint("recomended", "together");
+		checkPoint("already-seen", "sales");
+		checkPoint("bestseller", "bestseller");
 
+		// How to drawfill animation
 
-	$(".slide-items").slick({
-		verticalSwiping: true,
-		mobileFirst: true,
-		draggable: false,
-		vertical: true,
-		dots: false,
-		nextArrow: "<button class='vert-arr vert-arr_next'><svg><use href='#up-arrow'></use></svg></button>",
-		prevArrow: "<button class='vert-arr vert-arr_prev'><svg><use href='#down-arrow'></use></svg></button>",
-		dots: true
-	});
-
-});
-
-
-$(document).ready(function () {
-	var waypointsvg = new Waypoint({
-		element: $(".how-to"),
-		handler: function (dir) {
-			if (dir === "down") {
+		var hT = $('.how-to').offset().top,
+			wH = $(window).height(),
+			wS = $(this).scrollTop(),
+			res = hT - (wH / 1.5);
+		if (wS > res){
+			if(drawed == false){
+				drawed = true;
 				$(".ht-trg").each(function (index) {
 					var ths = $(this);
 					setTimeout(function () {
@@ -140,12 +109,69 @@ $(document).ready(function () {
 						});
 					}, 600 * index);
 				});
-			};
-			this.destroy();
-		},
-		offset: '50%'
-	});
+				$(".avg-item").each(function (index) {
+					var ths = $(this);
+					setTimeout(function () {
+						$(".avg-item").eq(index).addClass("zoomIn");
+					}, 300 * index);
+				});
+			}
+		}
 
+ });
+
+});
+
+
+function checkPoint(generalSection, secondSection){
+	var hT = $('.' + generalSection).offset().top,
+			wH = $(window).height(),
+			wS = $(this).scrollTop(),
+			res = hT - (wH / 1.5);
+		if (wS > res){
+			$('.' + generalSection + ' .slider-loader, .' + secondSection +  ' .slider-loader').stop().fadeOut();
+			$('.' + generalSection + ' .slide-vertical, .' + secondSection +  ' .slide-vertical').not('.slick-initialized').slick({
+				infinite: false,
+				mobileFirst: true,
+				arrows: false,
+				dots: true,
+				draggable: false,
+				responsive: [
+					{
+						breakpoint: 992,
+						settings: {
+							slidesToShow: 4,
+							infinite: false,
+							dots: false,
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1,
+							infinite: false
+						}
+					},
+				]
+			});
+			$('.' + generalSection + ' .slide-items, .' + secondSection +  ' .slide-items').not('.slick-initialized').slick({
+				verticalSwiping: true,
+				mobileFirst: true,
+				draggable: false,
+				vertical: true,
+				dots: false,
+				nextArrow: "<button class='vert-arr vert-arr_next'><svg><use href='#up-arrow'></use></svg></button>",
+				prevArrow: "<button class='vert-arr vert-arr_prev'><svg><use href='#down-arrow'></use></svg></button>",
+				dots: true
+			});
+			console.log('H1 on the view!');
+		}
+}
+
+
+
+$(document).ready(function () {
 
 	var waypointsvg = new Waypoint({
 		element: $(".how-to__avg-wrap"),
@@ -162,8 +188,6 @@ $(document).ready(function () {
 		},
 		offset: '80%'
 	});
-
-
 
 });
 
