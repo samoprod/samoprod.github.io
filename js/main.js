@@ -165,31 +165,10 @@ function checkPoint(generalSection, secondSection){
 				prevArrow: "<button class='vert-arr vert-arr_prev'><svg><use href='#down-arrow'></use></svg></button>",
 				dots: true
 			});
-			console.log('H1 on the view!');
 		}
 }
 
 
-
-$(document).ready(function () {
-
-	var waypointsvg = new Waypoint({
-		element: $(".how-to__avg-wrap"),
-		handler: function (dir) {
-			if (dir === "down") {
-				$(".avg-item").each(function (index) {
-					var ths = $(this);
-					setTimeout(function () {
-						$(".avg-item").eq(index).addClass("zoomIn");
-					}, 300 * index);
-				});
-			};
-			this.destroy();
-		},
-		offset: '80%'
-	});
-
-});
 
 $(window).on("load", function () {
 	$("body, html").removeClass("ovh");
