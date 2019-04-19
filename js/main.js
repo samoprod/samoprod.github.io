@@ -15,11 +15,11 @@ $(function () {
 
 
 
-	/* Prevent horizontal scroll */
-	$(window).scroll(function () {
-		$("body, html").scrollLeft(0);
-		$(window).scrollLeft(0);
-	});
+	// /* Prevent horizontal scroll */
+	// $(window).scroll(function () {
+	// 	$("body, html").scrollLeft(0);
+	// 	$(window).scrollLeft(0);
+	// });
 
 
 	/* Magnific Popup */
