@@ -86,10 +86,9 @@ $(function () {
 	});
 
 
-	
-		checkPoint("recomended", "together");
-		checkPoint("already-seen", "sales");
-		checkPoint("bestseller", "bestseller");
+	checkPoint("recomended", "together");
+	checkPoint("already-seen", "sales");
+	checkPoint("bestseller", "bestseller");
 
 
 	var drawed = false;
