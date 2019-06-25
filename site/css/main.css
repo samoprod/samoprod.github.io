@@ -1641,33 +1641,33 @@ hr {
 }
 
 *::-webkit-input-placeholder {
-  color: #666;
+  color: #606060;
   opacity: 1;
 }
 
 *:-moz-placeholder {
-  color: #666;
+  color: #606060;
   opacity: 1;
 }
 
 *::-moz-placeholder {
-  color: #666;
+  color: #606060;
   opacity: 1;
 }
 
 *:-ms-input-placeholder {
-  color: #666;
+  color: #606060;
   opacity: 1;
 }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-  color: #666;
+  color: #606060;
 }
 
 body input:required:valid,
 body textarea:required:valid {
-  color: #666;
+  color: #606060;
 }
 
 html, body {
@@ -1681,6 +1681,10 @@ body {
   line-height: 1.65;
   font-family: "arial-web", sans-serif;
   overflow-x: hidden;
+}
+
+body.ovh {
+  overflow: hidden;
 }
 
 .top-line hr {
@@ -1702,11 +1706,39 @@ body {
   }
 }
 
+.top-line__btn {
+  font-family: "arial-web", sans-serif;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-width: 570px) {
+  .top-line__btn {
+    display: none;
+  }
+}
+
+.top-line__btn:focus {
+  color: #b7096b;
+}
+
+.top-line__btn img {
+  width: 30px;
+}
+
 .top-line__list {
+  display: none;
   text-transform: uppercase;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (min-width: 570px) {
+  .top-line__list {
+    display: block !important;
+  }
 }
 
 .top-line__list li {
@@ -1721,8 +1753,8 @@ body {
 
 @media only screen and (max-width: 569px) {
   .top-line__list li {
-    width: 50%;
-    float: left;
+    width: 100%;
+    float: none;
   }
 }
 
@@ -1730,23 +1762,6 @@ body {
   .top-line__list li {
     margin-right: 40px;
     margin-left: 40px;
-  }
-}
-
-.top-line__list li:before {
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  position: absolute;
-  content: " ";
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-
-@media only screen and (min-width: 570px) {
-  .top-line__list li:before {
-    display: none;
   }
 }
 
@@ -2588,7 +2603,7 @@ body {
   top: 0;
 }
 
-.slider-for .item {
+.slider-forf .item {
   background-color: #252525;
   outline: none;
   color: #fff;
@@ -2610,6 +2625,130 @@ body {
 
 .slider-nav .item.slick-current {
   border: 1px solid #f02657;
+}
+
+.popup {
+  background-color: rgba(0, 0, 0, 0.44);
+  overflow: hidden auto;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.popup-box {
+  text-align: center;
+  background-color: #fff;
+  min-height: 100%;
+  display: block;
+  padding: 20px 5px;
+}
+
+@media only screen and (min-width: 660px) {
+  .popup-box {
+    width: 640px;
+    margin: 10% auto;
+    min-height: auto;
+    padding: 20px 20px;
+  }
+}
+
+.popup-box h3 {
+  color: #010101;
+  line-height: 36px;
+  font-family: "arial-web", sans-serif;
+  font-size: 26px;
+  margin: 0;
+}
+
+.popup-box p {
+  display: inline-block;
+  margin: 10px 0 20px;
+  font-family: "arial-web", sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+  width: 300px;
+}
+
+@media only screen and (min-width: 390px) {
+  .popup-box p {
+    width: 400px;
+  }
+}
+
+.popup .input-popup {
+  width: 300px;
+  margin: 0 auto;
+  font-family: "arial-web", sans-serif;
+}
+
+.popup .input-popup > div {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.popup .input-popup input {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  border: 1px solid #cccccc;
+  text-align: center;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  font-size: 12px;
+  outline: none;
+  height: 35px;
+}
+
+.popup .input-popup input:focus {
+  border: 1px solid #aaaaaa;
+}
+
+.popup .input-popup .input-code input {
+  width: 30%;
+}
+
+.popup .input-popup .input-code span {
+  font-size: 12px;
+  color: #606060;
+}
+
+.popup .input-popup .input-normal input {
+  width: 100%;
+}
+
+.popup .input-popup .input-btn {
+  margin-top: 10px;
+}
+
+.popup .input-popup .input-btn input {
+  background-color: #ef164b;
+  line-height: 40px;
+  font-size: 17px;
+  height: 40px;
+  width: 100%;
+  color: #fff;
+}
+
+.popup .input-popup .input-btn input:hover {
+  background-color: #c50d3a;
+}
+
+.popup-log-in {
+  font-size: 12px;
+  text-align: center !important;
+  margin-top: 20px;
+}
+
+.popup-log-in a {
+  color: #ef164b;
+  text-decoration: underline;
+}
+
+.popup-log-in a:hover {
+  text-decoration: none;
 }
 
 .img-responsive {
