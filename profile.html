@@ -58,7 +58,7 @@
 	</ul>
 </nav>
 
-<header class="header animate">
+<header class="header animate header-profile-main">
 	<div class="header-top">
 		<div class="header-menu">
 			<button class="header-menu-btn">
@@ -83,34 +83,19 @@
 		</div>
 	</div>
 	<div class="header-body">
-		<div class="header-social">
-			<a href="" target="_blank" class="header-social__link"><svg class="header-social__soc-icon"><use xlink:href="#fb"></use></svg></a>
-			<a href="" target="_blank" class="header-social__link"><svg class="header-social__soc-icon"><use xlink:href="#instagram"></use></svg></a>
-			<a href="" target="_blank" class="header-social__link"><svg class="header-social__soc-icon"><use xlink:href="#youtube"></use></svg></a>
-			<a href="" target="_blank" class="header-social__link"><svg class="header-social__soc-icon"><use xlink:href="#twitter"></use></svg></a>
-		</div>
-
-
-		<div class="header-slider-wrap">
-			<div class="header-talents-current">
-				0
-				<span>1</span>
-			</div>
+		<div class="header-slider-wrap header-profile">
 			<div class="header-talents-inner">
 				<h2 class="header-talents-title">Georgina<br>Alson</h2>
 				<div class="line line--bottom-right"></div>
 				<p class="header-talents-description">young model 2020</p>
 			</div>
-			<div class="header-talents-btns">
-				<a href="#" class="view-profile-btn">VIEW PROFILE</a>
-				<a href="https://www.youtube.com/watch?v=dk9uNWPP7EA" data-effect="mfp-zoom-out" target="_blank" class="play-profile-video"></a>
-			</div>
-			<div class="header-talents">
+			<div class="header-talents header-profile-slider">
+				<a href="#" class="goto-profile-btn">Enquire about derek</a>
 				<div
 					class="header-talents-item img2bg"
-					data-name="Georgina Alson"
-					data-line-pos="bottom"
-					data-description="Yound model 2020"
+					data-name="Derek Anderson"
+					data-line-pos="top"
+					data-description="british Comedian"
 					data-video-url="https://www.youtube.com/watch?v=dk9uNWPP7EA"
 					data-profile-id="1"
 				>
@@ -128,9 +113,9 @@
 				</div>
 				<div
 					class="header-talents-item img2bg"
-					data-name="Georgina Alson"
-					data-line-pos="bottom"
-					data-description="Yound model 2020"
+					data-name="Derek Anderson"
+					data-line-pos="top"
+					data-description="british Comedian"
 					data-video-url="https://www.youtube.com/watch?v=8ZdpA3p9ZMY"
 					data-profile-id="3"
 				>
@@ -153,18 +138,137 @@
 	</div>
 </header>
 
-	<section class="talents">
+
+	<section class="profile">
 		<div class="container">
-			<ul class="talents-category">
-				<li class="talents-category__item" data-cat="actor">Actor</li>
-				<li class="talents-category__item" data-cat="music">Musician</li>
-				<li class="talents-category__item" data-cat="comedy">Comedian</li>
-				<li class="talents-category__item" data-cat="model">Model</li>
-				<li class="talents-category__item active" data-cat="all">All</li>
-				<li class="talents-category__toggle">Toggle Images</li>
-			</ul>
-			<div class="talents-body">
-				<div class="talents-item" data-category="model">
+			<div class="profile-wrap">
+				<div class="profile-slider-wrap">
+					<div class="profile-slider">
+						<div class="profile-image img2bg">
+							<img src="img/news-wrap/04.jpg" alt="Profile Image">
+						</div>
+						<div class="profile-image img2bg">
+							<img src="img/news-wrap/04.jpg" alt="Profile Image">
+						</div>
+						<div class="profile-image img2bg">
+							<img src="img/news-wrap/04.jpg" alt="Profile Image">
+						</div>
+						<div class="profile-image img2bg">
+							<img src="img/news-wrap/04.jpg" alt="Profile Image">
+						</div>
+					</div>
+				</div>
+				<div class="profile-info">
+					<div class="profile-tabs">
+						<div class="profile__tab active" data-id="1">Profile</div>
+						<div class="profile__tab" data-id="2">press</div>
+						<div class="profile__tab" data-id="3">awards</div>
+						<div class="profile__tab" data-id="4">CREDITS</div>
+					</div>
+					<div class="profile-content profile-content--profile" data-id="1">
+						<h3 class="profile-content__title">Profile.</h3>
+						<div class="profile-content__subtitle">Derek Anderson is a leading actor, <br>comedian and writer.</div>
+						<div class="profile-content__awards">British Award 2020</div>
+						<div class="profile-content__description">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.
+								voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+						</div>
+					</div>
+					<div class="profile-content profile-content--press" data-id="2">
+						<h3 class="profile-content__title">Press.</h3>
+						<div class="profile-content__subtitle">Derek Anderson is a leading actor, <br>comedian and writer.</div>
+						<div class="profile-content__awards">British Award 2020</div>
+						<div class="profile-content__description">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.
+								voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+						</div>
+					</div>
+					<div class="profile-content profile-content--awards" data-id="3">
+						<h3 class="profile-content__title">Awards.</h3>
+						<div class="profile-content__subtitle">Derek Anderson is a leading actor, <br>comedian and writer.</div>
+						<div class="profile-content__awards">British Award 2020</div>
+						<div class="profile-content__awards">British Award 2020</div>
+						<div class="profile-content__awards">British Award 2020</div>
+						<div class="profile-content__description">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.
+								voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+						</div>
+					</div>
+					<div class="profile-content profile-content--credits" data-id="4">
+						<h3 class="profile-content__title">Credits.</h3>
+						<div class="profile-content__subtitle">Derek Anderson is a leading actor, <br>comedian and writer.</div>
+						<div class="profile-content__awards">British Award 2020</div>
+						<div class="profile-content__description">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.
+								voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+						</div>
+					</div>
+				</div>
+				<div class="profile-social">
+					<a href="" target="_blank" class="profile-social__link"><svg class="profile-social__soc-icon"><use xlink:href="#fb"></use></svg></a>
+					<a href="" target="_blank" class="profile-social__link"><svg class="profile-social__soc-icon"><use xlink:href="#instagram"></use></svg></a>
+					<a href="" target="_blank" class="profile-social__link"><svg class="profile-social__soc-icon"><use xlink:href="#youtube"></use></svg></a>
+					<a href="" target="_blank" class="profile-social__link"><svg class="profile-social__soc-icon"><use xlink:href="#twitter"></use></svg></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="onpress">
+		<div class="container">
+			<div class="onpress-wrapper">
+				<div class="onpress-content">
+					<h2 class="onpress-title">Derek Anderson <br>on Press</h2>
+					<div class="onpress-item">
+						<div class="onpress-img">
+							<a href=""><div class="img2bg onpress__image">
+									<img src="img/news-wrap/01.jpg" alt="Press 01">
+								</div></a>
+						</div>
+						<div class="onpress-info">
+							<h3 class="onpress-item__title"><a href="">29 Motivational Quotes For Business And Other Work Environments</a></h3>
+							<div class="onpress-item__date">8 March, 2020</div>
+						</div>
+					</div>
+					<div class="onpress-item">
+						<div class="onpress-img">
+							<a href=""><div class="img2bg onpress__image">
+									<img src="img/news-wrap/02.jpg" alt="Press 02">
+								</div></a>
+						</div>
+						<div class="onpress-info">
+							<h3 class="onpress-item__title"><a href="">5 Reasons To Keep Your Beauty Salon Reservation</a></h3>
+							<div class="onpress-item__date">8 March, 2020</div>
+						</div>
+					</div>
+					<a href="" class="onpress-btn">explore more</a>
+				</div>
+				<div class="onpress-imagewrap">
+					<div class="img2bg onpress__img">
+						<img src="img/onpress/01.jpg" alt="OnPress">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="similar">
+		<div class="container">
+			<div class="similar-top">
+				<h2 class="similar-title">
+					Similar Clients
+				</h2>
+				<div class="similar-info">
+					<p class="silimar-info__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<a href="" class="similar-info__btn">Explore More</a>
+				</div>
+			</div>
+			<div class="similar-body" id="similar-body">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/01.jpg" alt="Talent Image">
 					</div>
@@ -174,7 +278,7 @@
 						<p class="talents-item__description">Comedian</p>
 					</div>
 				</div>
-				<div class="talents-item" data-category="music">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/02.jpg" alt="Talent Image">
 					</div>
@@ -184,7 +288,7 @@
 						<p class="talents-item__description">Comedian</p>
 					</div>
 				</div>
-				<div class="talents-item" data-category="model">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/03.jpg" alt="Talent Image">
 					</div>
@@ -194,7 +298,7 @@
 						<p class="talents-item__description">Comedian</p>
 					</div>
 				</div>
-				<div class="talents-item" data-category="music">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/04.jpg" alt="Talent Image">
 					</div>
@@ -204,7 +308,7 @@
 						<p class="talents-item__description">Comedian</p>
 					</div>
 				</div>
-				<div class="talents-item" data-category="comedy">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/05.jpg" alt="Talent Image">
 					</div>
@@ -214,7 +318,7 @@
 						<p class="talents-item__description">Comedian</p>
 					</div>
 				</div>
-				<div class="talents-item" data-category="music">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/06.jpg" alt="Talent Image">
 					</div>
@@ -224,7 +328,7 @@
 						<p class="talents-item__description">Comedian</p>
 					</div>
 				</div>
-				<div class="talents-item" data-category="actor">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/07.jpg" alt="Talent Image">
 					</div>
@@ -234,7 +338,7 @@
 						<p class="talents-item__description">Comedian</p>
 					</div>
 				</div>
-				<div class="talents-item" data-category="comedy">
+				<div class="talents-item">
 					<div class="img2bg talents-item__img">
 						<img src="img/talents/08.jpg" alt="Talent Image">
 					</div>
@@ -243,104 +347,6 @@
 						<h3 class="talents-item__title">Keith Ruiz</h3>
 						<p class="talents-item__description">Comedian</p>
 					</div>
-				</div>
-			</div>
-			<div class="talents-btn-wrap">
-				<a href="" class="talents-btn">Explore More</a>
-			</div>
-		</div>
-	</section>
-
-
-	<section class="news">
-		<div class="container">
-			<h2 class="news__title">Latest News</h2>
-			<div class="news-small">
-				<div class="news-small__item">
-					<div class="img2bg news-small__img"><img src="img/news-small/feed1.jpg" alt="Feed Image"></div>
-					<div class="news-small__info">
-						<div class="news-small__title"><a href="">5 Reasons To Keep Your Beauty Salon Reservation</a></div>
-						<div class="news-small__date">8 March, 2020</div>
-					</div>
-				</div>
-				<div class="news-small__item">
-					<div class="img2bg news-small__img"><img src="img/news-small/feed2.jpg" alt="Feed Image"></div>
-					<div class="news-small__info">
-						<div class="news-small__title"><a href="">Benjamin Franklin Method Of Habit Formation</a></div>
-						<div class="news-small__date">8 March, 2020</div>
-					</div>
-				</div>
-				<div class="news-small__item">
-					<div class="img2bg news-small__img"><img src="img/news-small/feed3.jpg" alt="Feed Image"></div>
-					<div class="news-small__info">
-						<div class="news-small__title"><a href="">29 Motivational Quotes For Business And Other Work Environments</a></div>
-						<div class="news-small__date">8 March, 2020</div>
-					</div>
-				</div>
-			</div>
-			<div class="news-wrap">
-				<div class="news-main">
-					<div class="news-large">
-						<div class="news-large__info">
-							<a href="" class="news-large__play"> </a>
-							<h2 class="news-large__title"><a href="">Use Your Reset Button To Change Your Vibration</a></h2>
-							<div class="news-large__date">8 March, 2020</div>
-						</div>
-						<div class="news-large__img img2bg">
-							<img src="img/news-wrap/01.jpg" alt="Large News Image">
-							<div class="news-large__category">Trending</div>
-						</div>
-					</div>
-					<div class="news-main__inner">
-						<div class="news-normal">
-							<div class="news-normal__img img2bg">
-								<img src="img/news-wrap/02.jpg" alt="Normal News Image">
-							</div>
-							<h3 class="news-normal__title"><a href="">Dream Interpretation Common Symbols And Their Meanings</a></h3>
-							<div class="news-normal__date">8 March, 2020</div>
-						</div>
-						<div class="news-vertical">
-							<div class="news-vertical-play">
-								<a href="" class="news-vertical-play__link">
-									<span class="news-vertical-play__icon"></span>
-									<span class="news-vertical-play__title">Play all</span>
-								</a>
-							</div>
-							<div class="news-vertical-slider">
-								<div class="img2bg news-vertical__img">
-									<img src="img/news-wrap/03.jpg" alt="News Vertical Image">
-								</div>
-								<div class="img2bg news-vertical__img">
-									<img src="img/news-wrap/03.jpg" alt="News Vertical Image">
-								</div>
-								<div class="img2bg news-vertical__img">
-									<img src="img/news-wrap/03.jpg" alt="News Vertical Image">
-								</div>
-								<div class="img2bg news-vertical__img">
-									<img src="img/news-wrap/03.jpg" alt="News Vertical Image">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="news-side">
-					<div class="news-side-slider">
-						<div class="news-side__img img2bg">
-							<img src="img/news-wrap/04.jpg" alt="News Side">
-						</div>
-						<div class="news-side__img img2bg">
-							<img src="img/news-wrap/04.jpg" alt="News Side">
-						</div>
-						<div class="news-side__img img2bg">
-							<img src="img/news-wrap/04.jpg" alt="News Side">
-						</div>
-						<div class="news-side__img img2bg">
-							<img src="img/news-wrap/04.jpg" alt="News Side">
-						</div>
-					</div>
-					<h3 class="news-side__title"><a href="">Motivation And Your Personal Vision An
-Unbeatable Force</a></h3>
-					<div class="news-side__date">8 March, 2020</div>
 				</div>
 			</div>
 		</div>
